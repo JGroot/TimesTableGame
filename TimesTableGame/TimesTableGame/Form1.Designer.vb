@@ -47,7 +47,7 @@ Partial Class Form1
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
-        Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
+        Me.txt0x0 = New System.Windows.Forms.RichTextBox()
         Me.RichTextBox2 = New System.Windows.Forms.RichTextBox()
         Me.RichTextBox3 = New System.Windows.Forms.RichTextBox()
         Me.RichTextBox4 = New System.Windows.Forms.RichTextBox()
@@ -395,13 +395,16 @@ Partial Class Form1
         Me.Label13.TabIndex = 12
         Me.Label13.Text = "1"
         '
-        'RichTextBox1
+        'txt0x0
         '
-        Me.RichTextBox1.Location = New System.Drawing.Point(185, 50)
-        Me.RichTextBox1.Name = "RichTextBox1"
-        Me.RichTextBox1.Size = New System.Drawing.Size(40, 40)
-        Me.RichTextBox1.TabIndex = 13
-        Me.RichTextBox1.Text = ""
+        Me.txt0x0.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt0x0.Location = New System.Drawing.Point(185, 50)
+        Me.txt0x0.MaxLength = 3
+        Me.txt0x0.Multiline = False
+        Me.txt0x0.Name = "txt0x0"
+        Me.txt0x0.Size = New System.Drawing.Size(40, 40)
+        Me.txt0x0.TabIndex = 13
+        Me.txt0x0.Text = ""
         '
         'RichTextBox2
         '
@@ -1489,7 +1492,7 @@ Partial Class Form1
         Me.Controls.Add(Me.RichTextBox4)
         Me.Controls.Add(Me.RichTextBox3)
         Me.Controls.Add(Me.RichTextBox2)
-        Me.Controls.Add(Me.RichTextBox1)
+        Me.Controls.Add(Me.txt0x0)
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.Label11)
@@ -1534,7 +1537,7 @@ Partial Class Form1
     Friend WithEvents Label11 As System.Windows.Forms.Label
     Friend WithEvents Label12 As System.Windows.Forms.Label
     Friend WithEvents Label13 As System.Windows.Forms.Label
-    Friend WithEvents RichTextBox1 As System.Windows.Forms.RichTextBox
+    Friend WithEvents txt0x0 As System.Windows.Forms.RichTextBox
     Friend WithEvents RichTextBox2 As System.Windows.Forms.RichTextBox
     Friend WithEvents RichTextBox3 As System.Windows.Forms.RichTextBox
     Friend WithEvents RichTextBox4 As System.Windows.Forms.RichTextBox
