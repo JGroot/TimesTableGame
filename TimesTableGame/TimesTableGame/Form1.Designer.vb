@@ -48,14 +48,14 @@ Partial Class frmTimeTable
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.txt0x0 = New System.Windows.Forms.RichTextBox()
-        Me.RichTextBox2 = New System.Windows.Forms.RichTextBox()
-        Me.RichTextBox3 = New System.Windows.Forms.RichTextBox()
-        Me.RichTextBox4 = New System.Windows.Forms.RichTextBox()
-        Me.RichTextBox5 = New System.Windows.Forms.RichTextBox()
-        Me.RichTextBox6 = New System.Windows.Forms.RichTextBox()
-        Me.RichTextBox7 = New System.Windows.Forms.RichTextBox()
-        Me.RichTextBox8 = New System.Windows.Forms.RichTextBox()
-        Me.RichTextBox9 = New System.Windows.Forms.RichTextBox()
+        Me.txt0x10 = New System.Windows.Forms.RichTextBox()
+        Me.txt0x9 = New System.Windows.Forms.RichTextBox()
+        Me.txt0x8 = New System.Windows.Forms.RichTextBox()
+        Me.txt0x7 = New System.Windows.Forms.RichTextBox()
+        Me.txt0x6 = New System.Windows.Forms.RichTextBox()
+        Me.txt0x5 = New System.Windows.Forms.RichTextBox()
+        Me.txt0x4 = New System.Windows.Forms.RichTextBox()
+        Me.txt0x3 = New System.Windows.Forms.RichTextBox()
         Me.txt0x2 = New System.Windows.Forms.RichTextBox()
         Me.txt0x1 = New System.Windows.Forms.RichTextBox()
         Me.RichTextBox13 = New System.Windows.Forms.RichTextBox()
@@ -410,69 +410,93 @@ Partial Class frmTimeTable
         Me.txt0x0.TabIndex = 13
         Me.txt0x0.Text = ""
         '
-        'RichTextBox2
+        'txt0x10
         '
-        Me.RichTextBox2.Location = New System.Drawing.Point(627, 66)
-        Me.RichTextBox2.Name = "RichTextBox2"
-        Me.RichTextBox2.Size = New System.Drawing.Size(40, 40)
-        Me.RichTextBox2.TabIndex = 14
-        Me.RichTextBox2.Text = ""
+        Me.txt0x10.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt0x10.Location = New System.Drawing.Point(627, 66)
+        Me.txt0x10.MaxLength = 2
+        Me.txt0x10.Multiline = False
+        Me.txt0x10.Name = "txt0x10"
+        Me.txt0x10.Size = New System.Drawing.Size(40, 40)
+        Me.txt0x10.TabIndex = 14
+        Me.txt0x10.Text = ""
         '
-        'RichTextBox3
+        'txt0x9
         '
-        Me.RichTextBox3.Location = New System.Drawing.Point(581, 66)
-        Me.RichTextBox3.Name = "RichTextBox3"
-        Me.RichTextBox3.Size = New System.Drawing.Size(40, 40)
-        Me.RichTextBox3.TabIndex = 15
-        Me.RichTextBox3.Text = ""
+        Me.txt0x9.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt0x9.Location = New System.Drawing.Point(581, 66)
+        Me.txt0x9.MaxLength = 2
+        Me.txt0x9.Multiline = False
+        Me.txt0x9.Name = "txt0x9"
+        Me.txt0x9.Size = New System.Drawing.Size(40, 40)
+        Me.txt0x9.TabIndex = 15
+        Me.txt0x9.Text = ""
         '
-        'RichTextBox4
+        'txt0x8
         '
-        Me.RichTextBox4.Location = New System.Drawing.Point(535, 66)
-        Me.RichTextBox4.Name = "RichTextBox4"
-        Me.RichTextBox4.Size = New System.Drawing.Size(40, 40)
-        Me.RichTextBox4.TabIndex = 16
-        Me.RichTextBox4.Text = ""
+        Me.txt0x8.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt0x8.Location = New System.Drawing.Point(535, 66)
+        Me.txt0x8.MaxLength = 2
+        Me.txt0x8.Multiline = False
+        Me.txt0x8.Name = "txt0x8"
+        Me.txt0x8.Size = New System.Drawing.Size(40, 40)
+        Me.txt0x8.TabIndex = 16
+        Me.txt0x8.Text = ""
         '
-        'RichTextBox5
+        'txt0x7
         '
-        Me.RichTextBox5.Location = New System.Drawing.Point(489, 66)
-        Me.RichTextBox5.Name = "RichTextBox5"
-        Me.RichTextBox5.Size = New System.Drawing.Size(40, 40)
-        Me.RichTextBox5.TabIndex = 17
-        Me.RichTextBox5.Text = ""
+        Me.txt0x7.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt0x7.Location = New System.Drawing.Point(489, 66)
+        Me.txt0x7.MaxLength = 2
+        Me.txt0x7.Multiline = False
+        Me.txt0x7.Name = "txt0x7"
+        Me.txt0x7.Size = New System.Drawing.Size(40, 40)
+        Me.txt0x7.TabIndex = 17
+        Me.txt0x7.Text = ""
         '
-        'RichTextBox6
+        'txt0x6
         '
-        Me.RichTextBox6.Location = New System.Drawing.Point(443, 66)
-        Me.RichTextBox6.Name = "RichTextBox6"
-        Me.RichTextBox6.Size = New System.Drawing.Size(40, 40)
-        Me.RichTextBox6.TabIndex = 18
-        Me.RichTextBox6.Text = ""
+        Me.txt0x6.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt0x6.Location = New System.Drawing.Point(443, 66)
+        Me.txt0x6.MaxLength = 2
+        Me.txt0x6.Multiline = False
+        Me.txt0x6.Name = "txt0x6"
+        Me.txt0x6.Size = New System.Drawing.Size(40, 40)
+        Me.txt0x6.TabIndex = 18
+        Me.txt0x6.Text = ""
         '
-        'RichTextBox7
+        'txt0x5
         '
-        Me.RichTextBox7.Location = New System.Drawing.Point(397, 66)
-        Me.RichTextBox7.Name = "RichTextBox7"
-        Me.RichTextBox7.Size = New System.Drawing.Size(40, 40)
-        Me.RichTextBox7.TabIndex = 19
-        Me.RichTextBox7.Text = ""
+        Me.txt0x5.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt0x5.Location = New System.Drawing.Point(397, 66)
+        Me.txt0x5.MaxLength = 2
+        Me.txt0x5.Multiline = False
+        Me.txt0x5.Name = "txt0x5"
+        Me.txt0x5.Size = New System.Drawing.Size(40, 40)
+        Me.txt0x5.TabIndex = 19
+        Me.txt0x5.Text = ""
         '
-        'RichTextBox8
+        'txt0x4
         '
-        Me.RichTextBox8.Location = New System.Drawing.Point(351, 66)
-        Me.RichTextBox8.Name = "RichTextBox8"
-        Me.RichTextBox8.Size = New System.Drawing.Size(40, 40)
-        Me.RichTextBox8.TabIndex = 20
-        Me.RichTextBox8.Text = ""
+        Me.txt0x4.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt0x4.Location = New System.Drawing.Point(351, 66)
+        Me.txt0x4.MaxLength = 2
+        Me.txt0x4.Multiline = False
+        Me.txt0x4.Name = "txt0x4"
+        Me.txt0x4.Size = New System.Drawing.Size(40, 40)
+        Me.txt0x4.TabIndex = 20
+        Me.txt0x4.Text = ""
         '
-        'RichTextBox9
+        'txt0x3
         '
-        Me.RichTextBox9.Location = New System.Drawing.Point(305, 66)
-        Me.RichTextBox9.Name = "RichTextBox9"
-        Me.RichTextBox9.Size = New System.Drawing.Size(40, 40)
-        Me.RichTextBox9.TabIndex = 21
-        Me.RichTextBox9.Text = ""
+        Me.txt0x3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt0x3.Location = New System.Drawing.Point(305, 66)
+        Me.txt0x3.MaxLength = 2
+        Me.txt0x3.Multiline = False
+        Me.txt0x3.Name = "txt0x3"
+        Me.txt0x3.Size = New System.Drawing.Size(40, 40)
+        Me.txt0x3.TabIndex = 21
+        Me.txt0x3.Text = ""
         '
         'txt0x2
         '
@@ -1407,6 +1431,7 @@ Partial Class frmTimeTable
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(901, 510)
         Me.Controls.Add(Me.lblTotalRight)
         Me.Controls.Add(Me.Label23)
@@ -1533,14 +1558,14 @@ Partial Class frmTimeTable
         Me.Controls.Add(Me.RichTextBox12)
         Me.Controls.Add(Me.txt0x1)
         Me.Controls.Add(Me.txt0x2)
-        Me.Controls.Add(Me.RichTextBox9)
-        Me.Controls.Add(Me.RichTextBox8)
-        Me.Controls.Add(Me.RichTextBox7)
-        Me.Controls.Add(Me.RichTextBox6)
-        Me.Controls.Add(Me.RichTextBox5)
-        Me.Controls.Add(Me.RichTextBox4)
-        Me.Controls.Add(Me.RichTextBox3)
-        Me.Controls.Add(Me.RichTextBox2)
+        Me.Controls.Add(Me.txt0x3)
+        Me.Controls.Add(Me.txt0x4)
+        Me.Controls.Add(Me.txt0x5)
+        Me.Controls.Add(Me.txt0x6)
+        Me.Controls.Add(Me.txt0x7)
+        Me.Controls.Add(Me.txt0x8)
+        Me.Controls.Add(Me.txt0x9)
+        Me.Controls.Add(Me.txt0x10)
         Me.Controls.Add(Me.txt0x0)
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.Label12)
@@ -1587,14 +1612,14 @@ Partial Class frmTimeTable
     Friend WithEvents Label12 As System.Windows.Forms.Label
     Friend WithEvents Label13 As System.Windows.Forms.Label
     Friend WithEvents txt0x0 As System.Windows.Forms.RichTextBox
-    Friend WithEvents RichTextBox2 As System.Windows.Forms.RichTextBox
-    Friend WithEvents RichTextBox3 As System.Windows.Forms.RichTextBox
-    Friend WithEvents RichTextBox4 As System.Windows.Forms.RichTextBox
-    Friend WithEvents RichTextBox5 As System.Windows.Forms.RichTextBox
-    Friend WithEvents RichTextBox6 As System.Windows.Forms.RichTextBox
-    Friend WithEvents RichTextBox7 As System.Windows.Forms.RichTextBox
-    Friend WithEvents RichTextBox8 As System.Windows.Forms.RichTextBox
-    Friend WithEvents RichTextBox9 As System.Windows.Forms.RichTextBox
+    Friend WithEvents txt0x10 As System.Windows.Forms.RichTextBox
+    Friend WithEvents txt0x9 As System.Windows.Forms.RichTextBox
+    Friend WithEvents txt0x8 As System.Windows.Forms.RichTextBox
+    Friend WithEvents txt0x7 As System.Windows.Forms.RichTextBox
+    Friend WithEvents txt0x6 As System.Windows.Forms.RichTextBox
+    Friend WithEvents txt0x5 As System.Windows.Forms.RichTextBox
+    Friend WithEvents txt0x4 As System.Windows.Forms.RichTextBox
+    Friend WithEvents txt0x3 As System.Windows.Forms.RichTextBox
     Friend WithEvents txt0x2 As System.Windows.Forms.RichTextBox
     Friend WithEvents txt0x1 As System.Windows.Forms.RichTextBox
     Friend WithEvents RichTextBox13 As System.Windows.Forms.RichTextBox
