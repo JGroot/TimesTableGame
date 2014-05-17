@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class frmTimeTable
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -165,11 +165,15 @@ Partial Class Form1
         Me.RichTextBox117 = New System.Windows.Forms.RichTextBox()
         Me.RichTextBox118 = New System.Windows.Forms.RichTextBox()
         Me.RichTextBox121 = New System.Windows.Forms.RichTextBox()
+        Me.lblEquation = New System.Windows.Forms.Label()
+        Me.lblInput = New System.Windows.Forms.Label()
+        Me.Label23 = New System.Windows.Forms.Label()
+        Me.lblTotalRight = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'RichTextBox12
         '
-        Me.RichTextBox12.Location = New System.Drawing.Point(185, 510)
+        Me.RichTextBox12.Location = New System.Drawing.Point(167, 526)
         Me.RichTextBox12.Name = "RichTextBox12"
         Me.RichTextBox12.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox12.TabIndex = 24
@@ -179,7 +183,7 @@ Partial Class Form1
         '
         Me.Label22.AutoSize = True
         Me.Label22.Font = New System.Drawing.Font("MS Reference Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.Location = New System.Drawing.Point(145, 526)
+        Me.Label22.Location = New System.Drawing.Point(127, 542)
         Me.Label22.Name = "Label22"
         Me.Label22.Size = New System.Drawing.Size(34, 24)
         Me.Label22.TabIndex = 42
@@ -187,7 +191,7 @@ Partial Class Form1
         '
         'RichTextBox59
         '
-        Me.RichTextBox59.Location = New System.Drawing.Point(231, 510)
+        Me.RichTextBox59.Location = New System.Drawing.Point(213, 526)
         Me.RichTextBox59.Name = "RichTextBox59"
         Me.RichTextBox59.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox59.TabIndex = 80
@@ -195,7 +199,7 @@ Partial Class Form1
         '
         'RichTextBox67
         '
-        Me.RichTextBox67.Location = New System.Drawing.Point(323, 510)
+        Me.RichTextBox67.Location = New System.Drawing.Point(305, 526)
         Me.RichTextBox67.Name = "RichTextBox67"
         Me.RichTextBox67.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox67.TabIndex = 88
@@ -203,7 +207,7 @@ Partial Class Form1
         '
         'RichTextBox68
         '
-        Me.RichTextBox68.Location = New System.Drawing.Point(277, 510)
+        Me.RichTextBox68.Location = New System.Drawing.Point(259, 526)
         Me.RichTextBox68.Name = "RichTextBox68"
         Me.RichTextBox68.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox68.TabIndex = 89
@@ -211,7 +215,7 @@ Partial Class Form1
         '
         'RichTextBox81
         '
-        Me.RichTextBox81.Location = New System.Drawing.Point(368, 511)
+        Me.RichTextBox81.Location = New System.Drawing.Point(350, 527)
         Me.RichTextBox81.Name = "RichTextBox81"
         Me.RichTextBox81.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox81.TabIndex = 102
@@ -219,7 +223,7 @@ Partial Class Form1
         '
         'RichTextBox97
         '
-        Me.RichTextBox97.Location = New System.Drawing.Point(461, 510)
+        Me.RichTextBox97.Location = New System.Drawing.Point(443, 526)
         Me.RichTextBox97.Name = "RichTextBox97"
         Me.RichTextBox97.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox97.TabIndex = 118
@@ -227,7 +231,7 @@ Partial Class Form1
         '
         'RichTextBox98
         '
-        Me.RichTextBox98.Location = New System.Drawing.Point(415, 510)
+        Me.RichTextBox98.Location = New System.Drawing.Point(397, 526)
         Me.RichTextBox98.Name = "RichTextBox98"
         Me.RichTextBox98.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox98.TabIndex = 119
@@ -235,7 +239,7 @@ Partial Class Form1
         '
         'RichTextBox110
         '
-        Me.RichTextBox110.Location = New System.Drawing.Point(507, 510)
+        Me.RichTextBox110.Location = New System.Drawing.Point(489, 526)
         Me.RichTextBox110.Name = "RichTextBox110"
         Me.RichTextBox110.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox110.TabIndex = 131
@@ -243,7 +247,7 @@ Partial Class Form1
         '
         'RichTextBox113
         '
-        Me.RichTextBox113.Location = New System.Drawing.Point(553, 510)
+        Me.RichTextBox113.Location = New System.Drawing.Point(535, 526)
         Me.RichTextBox113.Name = "RichTextBox113"
         Me.RichTextBox113.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox113.TabIndex = 134
@@ -251,7 +255,7 @@ Partial Class Form1
         '
         'RichTextBox119
         '
-        Me.RichTextBox119.Location = New System.Drawing.Point(645, 510)
+        Me.RichTextBox119.Location = New System.Drawing.Point(627, 526)
         Me.RichTextBox119.Name = "RichTextBox119"
         Me.RichTextBox119.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox119.TabIndex = 140
@@ -259,7 +263,7 @@ Partial Class Form1
         '
         'RichTextBox120
         '
-        Me.RichTextBox120.Location = New System.Drawing.Point(599, 510)
+        Me.RichTextBox120.Location = New System.Drawing.Point(581, 526)
         Me.RichTextBox120.Name = "RichTextBox120"
         Me.RichTextBox120.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox120.TabIndex = 141
@@ -269,7 +273,7 @@ Partial Class Form1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("MS Reference Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(193, 23)
+        Me.Label1.Location = New System.Drawing.Point(175, 39)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(22, 24)
         Me.Label1.TabIndex = 0
@@ -279,7 +283,7 @@ Partial Class Form1
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("MS Reference Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(157, 112)
+        Me.Label2.Location = New System.Drawing.Point(139, 128)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(22, 24)
         Me.Label2.TabIndex = 1
@@ -289,7 +293,7 @@ Partial Class Form1
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("MS Reference Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(157, 66)
+        Me.Label3.Location = New System.Drawing.Point(139, 82)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(22, 24)
         Me.Label3.TabIndex = 2
@@ -299,7 +303,7 @@ Partial Class Form1
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("MS Reference Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(650, 23)
+        Me.Label4.Location = New System.Drawing.Point(632, 39)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(34, 24)
         Me.Label4.TabIndex = 3
@@ -309,7 +313,7 @@ Partial Class Form1
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("MS Reference Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(607, 23)
+        Me.Label5.Location = New System.Drawing.Point(589, 39)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(22, 24)
         Me.Label5.TabIndex = 4
@@ -319,7 +323,7 @@ Partial Class Form1
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("MS Reference Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(562, 23)
+        Me.Label6.Location = New System.Drawing.Point(544, 39)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(22, 24)
         Me.Label6.TabIndex = 5
@@ -329,7 +333,7 @@ Partial Class Form1
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("MS Reference Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(514, 23)
+        Me.Label7.Location = New System.Drawing.Point(496, 39)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(22, 24)
         Me.Label7.TabIndex = 6
@@ -339,7 +343,7 @@ Partial Class Form1
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("MS Reference Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(466, 23)
+        Me.Label8.Location = New System.Drawing.Point(448, 39)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(22, 24)
         Me.Label8.TabIndex = 7
@@ -349,7 +353,7 @@ Partial Class Form1
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("MS Reference Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(425, 23)
+        Me.Label9.Location = New System.Drawing.Point(407, 39)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(22, 24)
         Me.Label9.TabIndex = 8
@@ -359,7 +363,7 @@ Partial Class Form1
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("MS Reference Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(377, 23)
+        Me.Label10.Location = New System.Drawing.Point(359, 39)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(22, 24)
         Me.Label10.TabIndex = 9
@@ -369,7 +373,7 @@ Partial Class Form1
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("MS Reference Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(330, 23)
+        Me.Label11.Location = New System.Drawing.Point(312, 39)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(22, 24)
         Me.Label11.TabIndex = 10
@@ -379,7 +383,7 @@ Partial Class Form1
         '
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("MS Reference Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(285, 23)
+        Me.Label12.Location = New System.Drawing.Point(267, 39)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(22, 24)
         Me.Label12.TabIndex = 11
@@ -389,7 +393,7 @@ Partial Class Form1
         '
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("MS Reference Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(240, 23)
+        Me.Label13.Location = New System.Drawing.Point(222, 39)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(22, 24)
         Me.Label13.TabIndex = 12
@@ -398,7 +402,7 @@ Partial Class Form1
         'txt0x0
         '
         Me.txt0x0.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt0x0.Location = New System.Drawing.Point(185, 50)
+        Me.txt0x0.Location = New System.Drawing.Point(167, 66)
         Me.txt0x0.MaxLength = 3
         Me.txt0x0.Multiline = False
         Me.txt0x0.Name = "txt0x0"
@@ -408,7 +412,7 @@ Partial Class Form1
         '
         'RichTextBox2
         '
-        Me.RichTextBox2.Location = New System.Drawing.Point(645, 50)
+        Me.RichTextBox2.Location = New System.Drawing.Point(627, 66)
         Me.RichTextBox2.Name = "RichTextBox2"
         Me.RichTextBox2.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox2.TabIndex = 14
@@ -416,7 +420,7 @@ Partial Class Form1
         '
         'RichTextBox3
         '
-        Me.RichTextBox3.Location = New System.Drawing.Point(599, 50)
+        Me.RichTextBox3.Location = New System.Drawing.Point(581, 66)
         Me.RichTextBox3.Name = "RichTextBox3"
         Me.RichTextBox3.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox3.TabIndex = 15
@@ -424,7 +428,7 @@ Partial Class Form1
         '
         'RichTextBox4
         '
-        Me.RichTextBox4.Location = New System.Drawing.Point(553, 50)
+        Me.RichTextBox4.Location = New System.Drawing.Point(535, 66)
         Me.RichTextBox4.Name = "RichTextBox4"
         Me.RichTextBox4.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox4.TabIndex = 16
@@ -432,7 +436,7 @@ Partial Class Form1
         '
         'RichTextBox5
         '
-        Me.RichTextBox5.Location = New System.Drawing.Point(507, 50)
+        Me.RichTextBox5.Location = New System.Drawing.Point(489, 66)
         Me.RichTextBox5.Name = "RichTextBox5"
         Me.RichTextBox5.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox5.TabIndex = 17
@@ -440,7 +444,7 @@ Partial Class Form1
         '
         'RichTextBox6
         '
-        Me.RichTextBox6.Location = New System.Drawing.Point(461, 50)
+        Me.RichTextBox6.Location = New System.Drawing.Point(443, 66)
         Me.RichTextBox6.Name = "RichTextBox6"
         Me.RichTextBox6.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox6.TabIndex = 18
@@ -448,7 +452,7 @@ Partial Class Form1
         '
         'RichTextBox7
         '
-        Me.RichTextBox7.Location = New System.Drawing.Point(415, 50)
+        Me.RichTextBox7.Location = New System.Drawing.Point(397, 66)
         Me.RichTextBox7.Name = "RichTextBox7"
         Me.RichTextBox7.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox7.TabIndex = 19
@@ -456,7 +460,7 @@ Partial Class Form1
         '
         'RichTextBox8
         '
-        Me.RichTextBox8.Location = New System.Drawing.Point(369, 50)
+        Me.RichTextBox8.Location = New System.Drawing.Point(351, 66)
         Me.RichTextBox8.Name = "RichTextBox8"
         Me.RichTextBox8.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox8.TabIndex = 20
@@ -464,7 +468,7 @@ Partial Class Form1
         '
         'RichTextBox9
         '
-        Me.RichTextBox9.Location = New System.Drawing.Point(323, 50)
+        Me.RichTextBox9.Location = New System.Drawing.Point(305, 66)
         Me.RichTextBox9.Name = "RichTextBox9"
         Me.RichTextBox9.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox9.TabIndex = 21
@@ -472,7 +476,7 @@ Partial Class Form1
         '
         'RichTextBox10
         '
-        Me.RichTextBox10.Location = New System.Drawing.Point(277, 50)
+        Me.RichTextBox10.Location = New System.Drawing.Point(259, 66)
         Me.RichTextBox10.Name = "RichTextBox10"
         Me.RichTextBox10.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox10.TabIndex = 22
@@ -480,7 +484,7 @@ Partial Class Form1
         '
         'RichTextBox11
         '
-        Me.RichTextBox11.Location = New System.Drawing.Point(231, 50)
+        Me.RichTextBox11.Location = New System.Drawing.Point(213, 66)
         Me.RichTextBox11.Name = "RichTextBox11"
         Me.RichTextBox11.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox11.TabIndex = 23
@@ -488,7 +492,7 @@ Partial Class Form1
         '
         'RichTextBox13
         '
-        Me.RichTextBox13.Location = New System.Drawing.Point(185, 464)
+        Me.RichTextBox13.Location = New System.Drawing.Point(167, 480)
         Me.RichTextBox13.Name = "RichTextBox13"
         Me.RichTextBox13.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox13.TabIndex = 25
@@ -496,7 +500,7 @@ Partial Class Form1
         '
         'RichTextBox14
         '
-        Me.RichTextBox14.Location = New System.Drawing.Point(185, 418)
+        Me.RichTextBox14.Location = New System.Drawing.Point(167, 434)
         Me.RichTextBox14.Name = "RichTextBox14"
         Me.RichTextBox14.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox14.TabIndex = 26
@@ -504,7 +508,7 @@ Partial Class Form1
         '
         'RichTextBox15
         '
-        Me.RichTextBox15.Location = New System.Drawing.Point(185, 372)
+        Me.RichTextBox15.Location = New System.Drawing.Point(167, 388)
         Me.RichTextBox15.Name = "RichTextBox15"
         Me.RichTextBox15.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox15.TabIndex = 27
@@ -512,7 +516,7 @@ Partial Class Form1
         '
         'RichTextBox16
         '
-        Me.RichTextBox16.Location = New System.Drawing.Point(185, 326)
+        Me.RichTextBox16.Location = New System.Drawing.Point(167, 342)
         Me.RichTextBox16.Name = "RichTextBox16"
         Me.RichTextBox16.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox16.TabIndex = 28
@@ -520,7 +524,7 @@ Partial Class Form1
         '
         'RichTextBox17
         '
-        Me.RichTextBox17.Location = New System.Drawing.Point(185, 280)
+        Me.RichTextBox17.Location = New System.Drawing.Point(167, 296)
         Me.RichTextBox17.Name = "RichTextBox17"
         Me.RichTextBox17.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox17.TabIndex = 29
@@ -528,7 +532,7 @@ Partial Class Form1
         '
         'RichTextBox18
         '
-        Me.RichTextBox18.Location = New System.Drawing.Point(185, 234)
+        Me.RichTextBox18.Location = New System.Drawing.Point(167, 250)
         Me.RichTextBox18.Name = "RichTextBox18"
         Me.RichTextBox18.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox18.TabIndex = 30
@@ -536,7 +540,7 @@ Partial Class Form1
         '
         'RichTextBox19
         '
-        Me.RichTextBox19.Location = New System.Drawing.Point(185, 188)
+        Me.RichTextBox19.Location = New System.Drawing.Point(167, 204)
         Me.RichTextBox19.Name = "RichTextBox19"
         Me.RichTextBox19.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox19.TabIndex = 31
@@ -544,7 +548,7 @@ Partial Class Form1
         '
         'RichTextBox20
         '
-        Me.RichTextBox20.Location = New System.Drawing.Point(185, 142)
+        Me.RichTextBox20.Location = New System.Drawing.Point(167, 158)
         Me.RichTextBox20.Name = "RichTextBox20"
         Me.RichTextBox20.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox20.TabIndex = 32
@@ -552,7 +556,7 @@ Partial Class Form1
         '
         'RichTextBox21
         '
-        Me.RichTextBox21.Location = New System.Drawing.Point(185, 96)
+        Me.RichTextBox21.Location = New System.Drawing.Point(167, 112)
         Me.RichTextBox21.Name = "RichTextBox21"
         Me.RichTextBox21.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox21.TabIndex = 33
@@ -562,7 +566,7 @@ Partial Class Form1
         '
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("MS Reference Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(157, 434)
+        Me.Label14.Location = New System.Drawing.Point(139, 450)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(22, 24)
         Me.Label14.TabIndex = 34
@@ -572,7 +576,7 @@ Partial Class Form1
         '
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("MS Reference Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(157, 388)
+        Me.Label15.Location = New System.Drawing.Point(139, 404)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(22, 24)
         Me.Label15.TabIndex = 35
@@ -582,7 +586,7 @@ Partial Class Form1
         '
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("MS Reference Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(157, 342)
+        Me.Label16.Location = New System.Drawing.Point(139, 358)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(22, 24)
         Me.Label16.TabIndex = 36
@@ -592,7 +596,7 @@ Partial Class Form1
         '
         Me.Label17.AutoSize = True
         Me.Label17.Font = New System.Drawing.Font("MS Reference Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(157, 296)
+        Me.Label17.Location = New System.Drawing.Point(139, 312)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(22, 24)
         Me.Label17.TabIndex = 37
@@ -602,7 +606,7 @@ Partial Class Form1
         '
         Me.Label18.AutoSize = True
         Me.Label18.Font = New System.Drawing.Font("MS Reference Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(157, 250)
+        Me.Label18.Location = New System.Drawing.Point(139, 266)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(22, 24)
         Me.Label18.TabIndex = 38
@@ -612,7 +616,7 @@ Partial Class Form1
         '
         Me.Label19.AutoSize = True
         Me.Label19.Font = New System.Drawing.Font("MS Reference Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.Location = New System.Drawing.Point(157, 204)
+        Me.Label19.Location = New System.Drawing.Point(139, 220)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(22, 24)
         Me.Label19.TabIndex = 39
@@ -622,7 +626,7 @@ Partial Class Form1
         '
         Me.Label20.AutoSize = True
         Me.Label20.Font = New System.Drawing.Font("MS Reference Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.Location = New System.Drawing.Point(157, 158)
+        Me.Label20.Location = New System.Drawing.Point(139, 174)
         Me.Label20.Name = "Label20"
         Me.Label20.Size = New System.Drawing.Size(22, 24)
         Me.Label20.TabIndex = 40
@@ -632,7 +636,7 @@ Partial Class Form1
         '
         Me.Label21.AutoSize = True
         Me.Label21.Font = New System.Drawing.Font("MS Reference Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.Location = New System.Drawing.Point(157, 480)
+        Me.Label21.Location = New System.Drawing.Point(139, 496)
         Me.Label21.Name = "Label21"
         Me.Label21.Size = New System.Drawing.Size(22, 24)
         Me.Label21.TabIndex = 41
@@ -640,7 +644,7 @@ Partial Class Form1
         '
         'RichTextBox22
         '
-        Me.RichTextBox22.Location = New System.Drawing.Point(369, 142)
+        Me.RichTextBox22.Location = New System.Drawing.Point(351, 158)
         Me.RichTextBox22.Name = "RichTextBox22"
         Me.RichTextBox22.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox22.TabIndex = 43
@@ -648,7 +652,7 @@ Partial Class Form1
         '
         'RichTextBox23
         '
-        Me.RichTextBox23.Location = New System.Drawing.Point(369, 96)
+        Me.RichTextBox23.Location = New System.Drawing.Point(351, 112)
         Me.RichTextBox23.Name = "RichTextBox23"
         Me.RichTextBox23.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox23.TabIndex = 44
@@ -656,7 +660,7 @@ Partial Class Form1
         '
         'RichTextBox24
         '
-        Me.RichTextBox24.Location = New System.Drawing.Point(323, 188)
+        Me.RichTextBox24.Location = New System.Drawing.Point(305, 204)
         Me.RichTextBox24.Name = "RichTextBox24"
         Me.RichTextBox24.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox24.TabIndex = 45
@@ -664,7 +668,7 @@ Partial Class Form1
         '
         'RichTextBox25
         '
-        Me.RichTextBox25.Location = New System.Drawing.Point(323, 142)
+        Me.RichTextBox25.Location = New System.Drawing.Point(305, 158)
         Me.RichTextBox25.Name = "RichTextBox25"
         Me.RichTextBox25.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox25.TabIndex = 46
@@ -672,7 +676,7 @@ Partial Class Form1
         '
         'RichTextBox26
         '
-        Me.RichTextBox26.Location = New System.Drawing.Point(323, 96)
+        Me.RichTextBox26.Location = New System.Drawing.Point(305, 112)
         Me.RichTextBox26.Name = "RichTextBox26"
         Me.RichTextBox26.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox26.TabIndex = 47
@@ -680,7 +684,7 @@ Partial Class Form1
         '
         'RichTextBox27
         '
-        Me.RichTextBox27.Location = New System.Drawing.Point(277, 188)
+        Me.RichTextBox27.Location = New System.Drawing.Point(259, 204)
         Me.RichTextBox27.Name = "RichTextBox27"
         Me.RichTextBox27.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox27.TabIndex = 48
@@ -688,7 +692,7 @@ Partial Class Form1
         '
         'RichTextBox28
         '
-        Me.RichTextBox28.Location = New System.Drawing.Point(231, 188)
+        Me.RichTextBox28.Location = New System.Drawing.Point(213, 204)
         Me.RichTextBox28.Name = "RichTextBox28"
         Me.RichTextBox28.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox28.TabIndex = 49
@@ -696,7 +700,7 @@ Partial Class Form1
         '
         'RichTextBox29
         '
-        Me.RichTextBox29.Location = New System.Drawing.Point(277, 142)
+        Me.RichTextBox29.Location = New System.Drawing.Point(259, 158)
         Me.RichTextBox29.Name = "RichTextBox29"
         Me.RichTextBox29.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox29.TabIndex = 50
@@ -704,7 +708,7 @@ Partial Class Form1
         '
         'RichTextBox30
         '
-        Me.RichTextBox30.Location = New System.Drawing.Point(231, 142)
+        Me.RichTextBox30.Location = New System.Drawing.Point(213, 158)
         Me.RichTextBox30.Name = "RichTextBox30"
         Me.RichTextBox30.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox30.TabIndex = 51
@@ -712,7 +716,7 @@ Partial Class Form1
         '
         'RichTextBox31
         '
-        Me.RichTextBox31.Location = New System.Drawing.Point(277, 96)
+        Me.RichTextBox31.Location = New System.Drawing.Point(259, 112)
         Me.RichTextBox31.Name = "RichTextBox31"
         Me.RichTextBox31.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox31.TabIndex = 52
@@ -720,7 +724,7 @@ Partial Class Form1
         '
         'RichTextBox32
         '
-        Me.RichTextBox32.Location = New System.Drawing.Point(231, 96)
+        Me.RichTextBox32.Location = New System.Drawing.Point(213, 112)
         Me.RichTextBox32.Name = "RichTextBox32"
         Me.RichTextBox32.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox32.TabIndex = 53
@@ -728,7 +732,7 @@ Partial Class Form1
         '
         'RichTextBox33
         '
-        Me.RichTextBox33.Location = New System.Drawing.Point(277, 326)
+        Me.RichTextBox33.Location = New System.Drawing.Point(259, 342)
         Me.RichTextBox33.Name = "RichTextBox33"
         Me.RichTextBox33.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox33.TabIndex = 54
@@ -736,7 +740,7 @@ Partial Class Form1
         '
         'RichTextBox34
         '
-        Me.RichTextBox34.Location = New System.Drawing.Point(231, 372)
+        Me.RichTextBox34.Location = New System.Drawing.Point(213, 388)
         Me.RichTextBox34.Name = "RichTextBox34"
         Me.RichTextBox34.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox34.TabIndex = 55
@@ -744,7 +748,7 @@ Partial Class Form1
         '
         'RichTextBox35
         '
-        Me.RichTextBox35.Location = New System.Drawing.Point(231, 326)
+        Me.RichTextBox35.Location = New System.Drawing.Point(213, 342)
         Me.RichTextBox35.Name = "RichTextBox35"
         Me.RichTextBox35.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox35.TabIndex = 56
@@ -752,7 +756,7 @@ Partial Class Form1
         '
         'RichTextBox36
         '
-        Me.RichTextBox36.Location = New System.Drawing.Point(277, 280)
+        Me.RichTextBox36.Location = New System.Drawing.Point(259, 296)
         Me.RichTextBox36.Name = "RichTextBox36"
         Me.RichTextBox36.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox36.TabIndex = 57
@@ -760,7 +764,7 @@ Partial Class Form1
         '
         'RichTextBox37
         '
-        Me.RichTextBox37.Location = New System.Drawing.Point(231, 280)
+        Me.RichTextBox37.Location = New System.Drawing.Point(213, 296)
         Me.RichTextBox37.Name = "RichTextBox37"
         Me.RichTextBox37.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox37.TabIndex = 58
@@ -768,7 +772,7 @@ Partial Class Form1
         '
         'RichTextBox38
         '
-        Me.RichTextBox38.Location = New System.Drawing.Point(323, 234)
+        Me.RichTextBox38.Location = New System.Drawing.Point(305, 250)
         Me.RichTextBox38.Name = "RichTextBox38"
         Me.RichTextBox38.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox38.TabIndex = 59
@@ -776,7 +780,7 @@ Partial Class Form1
         '
         'RichTextBox39
         '
-        Me.RichTextBox39.Location = New System.Drawing.Point(277, 234)
+        Me.RichTextBox39.Location = New System.Drawing.Point(259, 250)
         Me.RichTextBox39.Name = "RichTextBox39"
         Me.RichTextBox39.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox39.TabIndex = 60
@@ -784,7 +788,7 @@ Partial Class Form1
         '
         'RichTextBox40
         '
-        Me.RichTextBox40.Location = New System.Drawing.Point(231, 234)
+        Me.RichTextBox40.Location = New System.Drawing.Point(213, 250)
         Me.RichTextBox40.Name = "RichTextBox40"
         Me.RichTextBox40.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox40.TabIndex = 61
@@ -792,7 +796,7 @@ Partial Class Form1
         '
         'RichTextBox41
         '
-        Me.RichTextBox41.Location = New System.Drawing.Point(369, 188)
+        Me.RichTextBox41.Location = New System.Drawing.Point(351, 204)
         Me.RichTextBox41.Name = "RichTextBox41"
         Me.RichTextBox41.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox41.TabIndex = 62
@@ -800,7 +804,7 @@ Partial Class Form1
         '
         'RichTextBox42
         '
-        Me.RichTextBox42.Location = New System.Drawing.Point(507, 188)
+        Me.RichTextBox42.Location = New System.Drawing.Point(489, 204)
         Me.RichTextBox42.Name = "RichTextBox42"
         Me.RichTextBox42.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox42.TabIndex = 63
@@ -808,7 +812,7 @@ Partial Class Form1
         '
         'RichTextBox43
         '
-        Me.RichTextBox43.Location = New System.Drawing.Point(461, 188)
+        Me.RichTextBox43.Location = New System.Drawing.Point(443, 204)
         Me.RichTextBox43.Name = "RichTextBox43"
         Me.RichTextBox43.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox43.TabIndex = 64
@@ -816,7 +820,7 @@ Partial Class Form1
         '
         'RichTextBox44
         '
-        Me.RichTextBox44.Location = New System.Drawing.Point(415, 188)
+        Me.RichTextBox44.Location = New System.Drawing.Point(397, 204)
         Me.RichTextBox44.Name = "RichTextBox44"
         Me.RichTextBox44.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox44.TabIndex = 65
@@ -824,7 +828,7 @@ Partial Class Form1
         '
         'RichTextBox45
         '
-        Me.RichTextBox45.Location = New System.Drawing.Point(507, 142)
+        Me.RichTextBox45.Location = New System.Drawing.Point(489, 158)
         Me.RichTextBox45.Name = "RichTextBox45"
         Me.RichTextBox45.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox45.TabIndex = 66
@@ -832,7 +836,7 @@ Partial Class Form1
         '
         'RichTextBox46
         '
-        Me.RichTextBox46.Location = New System.Drawing.Point(461, 142)
+        Me.RichTextBox46.Location = New System.Drawing.Point(443, 158)
         Me.RichTextBox46.Name = "RichTextBox46"
         Me.RichTextBox46.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox46.TabIndex = 67
@@ -840,7 +844,7 @@ Partial Class Form1
         '
         'RichTextBox47
         '
-        Me.RichTextBox47.Location = New System.Drawing.Point(415, 142)
+        Me.RichTextBox47.Location = New System.Drawing.Point(397, 158)
         Me.RichTextBox47.Name = "RichTextBox47"
         Me.RichTextBox47.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox47.TabIndex = 68
@@ -848,7 +852,7 @@ Partial Class Form1
         '
         'RichTextBox48
         '
-        Me.RichTextBox48.Location = New System.Drawing.Point(507, 96)
+        Me.RichTextBox48.Location = New System.Drawing.Point(489, 112)
         Me.RichTextBox48.Name = "RichTextBox48"
         Me.RichTextBox48.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox48.TabIndex = 69
@@ -856,7 +860,7 @@ Partial Class Form1
         '
         'RichTextBox49
         '
-        Me.RichTextBox49.Location = New System.Drawing.Point(461, 96)
+        Me.RichTextBox49.Location = New System.Drawing.Point(443, 112)
         Me.RichTextBox49.Name = "RichTextBox49"
         Me.RichTextBox49.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox49.TabIndex = 70
@@ -864,7 +868,7 @@ Partial Class Form1
         '
         'RichTextBox50
         '
-        Me.RichTextBox50.Location = New System.Drawing.Point(415, 96)
+        Me.RichTextBox50.Location = New System.Drawing.Point(397, 112)
         Me.RichTextBox50.Name = "RichTextBox50"
         Me.RichTextBox50.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox50.TabIndex = 71
@@ -872,7 +876,7 @@ Partial Class Form1
         '
         'RichTextBox51
         '
-        Me.RichTextBox51.Location = New System.Drawing.Point(599, 188)
+        Me.RichTextBox51.Location = New System.Drawing.Point(581, 204)
         Me.RichTextBox51.Name = "RichTextBox51"
         Me.RichTextBox51.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox51.TabIndex = 72
@@ -880,7 +884,7 @@ Partial Class Form1
         '
         'RichTextBox52
         '
-        Me.RichTextBox52.Location = New System.Drawing.Point(645, 142)
+        Me.RichTextBox52.Location = New System.Drawing.Point(627, 158)
         Me.RichTextBox52.Name = "RichTextBox52"
         Me.RichTextBox52.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox52.TabIndex = 73
@@ -888,7 +892,7 @@ Partial Class Form1
         '
         'RichTextBox53
         '
-        Me.RichTextBox53.Location = New System.Drawing.Point(599, 142)
+        Me.RichTextBox53.Location = New System.Drawing.Point(581, 158)
         Me.RichTextBox53.Name = "RichTextBox53"
         Me.RichTextBox53.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox53.TabIndex = 74
@@ -896,7 +900,7 @@ Partial Class Form1
         '
         'RichTextBox54
         '
-        Me.RichTextBox54.Location = New System.Drawing.Point(553, 188)
+        Me.RichTextBox54.Location = New System.Drawing.Point(535, 204)
         Me.RichTextBox54.Name = "RichTextBox54"
         Me.RichTextBox54.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox54.TabIndex = 75
@@ -904,7 +908,7 @@ Partial Class Form1
         '
         'RichTextBox55
         '
-        Me.RichTextBox55.Location = New System.Drawing.Point(553, 142)
+        Me.RichTextBox55.Location = New System.Drawing.Point(535, 158)
         Me.RichTextBox55.Name = "RichTextBox55"
         Me.RichTextBox55.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox55.TabIndex = 76
@@ -912,7 +916,7 @@ Partial Class Form1
         '
         'RichTextBox56
         '
-        Me.RichTextBox56.Location = New System.Drawing.Point(645, 96)
+        Me.RichTextBox56.Location = New System.Drawing.Point(627, 112)
         Me.RichTextBox56.Name = "RichTextBox56"
         Me.RichTextBox56.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox56.TabIndex = 77
@@ -920,7 +924,7 @@ Partial Class Form1
         '
         'RichTextBox57
         '
-        Me.RichTextBox57.Location = New System.Drawing.Point(599, 96)
+        Me.RichTextBox57.Location = New System.Drawing.Point(581, 112)
         Me.RichTextBox57.Name = "RichTextBox57"
         Me.RichTextBox57.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox57.TabIndex = 78
@@ -928,7 +932,7 @@ Partial Class Form1
         '
         'RichTextBox58
         '
-        Me.RichTextBox58.Location = New System.Drawing.Point(553, 96)
+        Me.RichTextBox58.Location = New System.Drawing.Point(535, 112)
         Me.RichTextBox58.Name = "RichTextBox58"
         Me.RichTextBox58.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox58.TabIndex = 79
@@ -936,7 +940,7 @@ Partial Class Form1
         '
         'RichTextBox60
         '
-        Me.RichTextBox60.Location = New System.Drawing.Point(323, 280)
+        Me.RichTextBox60.Location = New System.Drawing.Point(305, 296)
         Me.RichTextBox60.Name = "RichTextBox60"
         Me.RichTextBox60.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox60.TabIndex = 81
@@ -944,7 +948,7 @@ Partial Class Form1
         '
         'RichTextBox61
         '
-        Me.RichTextBox61.Location = New System.Drawing.Point(277, 464)
+        Me.RichTextBox61.Location = New System.Drawing.Point(259, 480)
         Me.RichTextBox61.Name = "RichTextBox61"
         Me.RichTextBox61.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox61.TabIndex = 82
@@ -952,7 +956,7 @@ Partial Class Form1
         '
         'RichTextBox62
         '
-        Me.RichTextBox62.Location = New System.Drawing.Point(277, 418)
+        Me.RichTextBox62.Location = New System.Drawing.Point(259, 434)
         Me.RichTextBox62.Name = "RichTextBox62"
         Me.RichTextBox62.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox62.TabIndex = 83
@@ -960,7 +964,7 @@ Partial Class Form1
         '
         'RichTextBox63
         '
-        Me.RichTextBox63.Location = New System.Drawing.Point(277, 372)
+        Me.RichTextBox63.Location = New System.Drawing.Point(259, 388)
         Me.RichTextBox63.Name = "RichTextBox63"
         Me.RichTextBox63.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox63.TabIndex = 84
@@ -968,7 +972,7 @@ Partial Class Form1
         '
         'RichTextBox64
         '
-        Me.RichTextBox64.Location = New System.Drawing.Point(231, 464)
+        Me.RichTextBox64.Location = New System.Drawing.Point(213, 480)
         Me.RichTextBox64.Name = "RichTextBox64"
         Me.RichTextBox64.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox64.TabIndex = 85
@@ -976,7 +980,7 @@ Partial Class Form1
         '
         'RichTextBox65
         '
-        Me.RichTextBox65.Location = New System.Drawing.Point(231, 418)
+        Me.RichTextBox65.Location = New System.Drawing.Point(213, 434)
         Me.RichTextBox65.Name = "RichTextBox65"
         Me.RichTextBox65.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox65.TabIndex = 86
@@ -984,7 +988,7 @@ Partial Class Form1
         '
         'RichTextBox66
         '
-        Me.RichTextBox66.Location = New System.Drawing.Point(369, 234)
+        Me.RichTextBox66.Location = New System.Drawing.Point(351, 250)
         Me.RichTextBox66.Name = "RichTextBox66"
         Me.RichTextBox66.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox66.TabIndex = 87
@@ -992,7 +996,7 @@ Partial Class Form1
         '
         'RichTextBox69
         '
-        Me.RichTextBox69.Location = New System.Drawing.Point(323, 464)
+        Me.RichTextBox69.Location = New System.Drawing.Point(305, 480)
         Me.RichTextBox69.Name = "RichTextBox69"
         Me.RichTextBox69.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox69.TabIndex = 90
@@ -1000,7 +1004,7 @@ Partial Class Form1
         '
         'RichTextBox70
         '
-        Me.RichTextBox70.Location = New System.Drawing.Point(323, 418)
+        Me.RichTextBox70.Location = New System.Drawing.Point(305, 434)
         Me.RichTextBox70.Name = "RichTextBox70"
         Me.RichTextBox70.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox70.TabIndex = 91
@@ -1008,7 +1012,7 @@ Partial Class Form1
         '
         'RichTextBox71
         '
-        Me.RichTextBox71.Location = New System.Drawing.Point(323, 372)
+        Me.RichTextBox71.Location = New System.Drawing.Point(305, 388)
         Me.RichTextBox71.Name = "RichTextBox71"
         Me.RichTextBox71.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox71.TabIndex = 92
@@ -1016,7 +1020,7 @@ Partial Class Form1
         '
         'RichTextBox72
         '
-        Me.RichTextBox72.Location = New System.Drawing.Point(323, 326)
+        Me.RichTextBox72.Location = New System.Drawing.Point(305, 342)
         Me.RichTextBox72.Name = "RichTextBox72"
         Me.RichTextBox72.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox72.TabIndex = 93
@@ -1024,7 +1028,7 @@ Partial Class Form1
         '
         'RichTextBox73
         '
-        Me.RichTextBox73.Location = New System.Drawing.Point(369, 280)
+        Me.RichTextBox73.Location = New System.Drawing.Point(351, 296)
         Me.RichTextBox73.Name = "RichTextBox73"
         Me.RichTextBox73.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox73.TabIndex = 94
@@ -1032,7 +1036,7 @@ Partial Class Form1
         '
         'RichTextBox74
         '
-        Me.RichTextBox74.Location = New System.Drawing.Point(599, 234)
+        Me.RichTextBox74.Location = New System.Drawing.Point(581, 250)
         Me.RichTextBox74.Name = "RichTextBox74"
         Me.RichTextBox74.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox74.TabIndex = 95
@@ -1040,7 +1044,7 @@ Partial Class Form1
         '
         'RichTextBox75
         '
-        Me.RichTextBox75.Location = New System.Drawing.Point(645, 234)
+        Me.RichTextBox75.Location = New System.Drawing.Point(627, 250)
         Me.RichTextBox75.Name = "RichTextBox75"
         Me.RichTextBox75.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox75.TabIndex = 96
@@ -1048,7 +1052,7 @@ Partial Class Form1
         '
         'RichTextBox76
         '
-        Me.RichTextBox76.Location = New System.Drawing.Point(645, 188)
+        Me.RichTextBox76.Location = New System.Drawing.Point(627, 204)
         Me.RichTextBox76.Name = "RichTextBox76"
         Me.RichTextBox76.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox76.TabIndex = 97
@@ -1056,7 +1060,7 @@ Partial Class Form1
         '
         'RichTextBox77
         '
-        Me.RichTextBox77.Location = New System.Drawing.Point(369, 327)
+        Me.RichTextBox77.Location = New System.Drawing.Point(351, 343)
         Me.RichTextBox77.Name = "RichTextBox77"
         Me.RichTextBox77.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox77.TabIndex = 98
@@ -1064,7 +1068,7 @@ Partial Class Form1
         '
         'RichTextBox78
         '
-        Me.RichTextBox78.Location = New System.Drawing.Point(369, 373)
+        Me.RichTextBox78.Location = New System.Drawing.Point(351, 389)
         Me.RichTextBox78.Name = "RichTextBox78"
         Me.RichTextBox78.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox78.TabIndex = 99
@@ -1072,7 +1076,7 @@ Partial Class Form1
         '
         'RichTextBox79
         '
-        Me.RichTextBox79.Location = New System.Drawing.Point(368, 419)
+        Me.RichTextBox79.Location = New System.Drawing.Point(350, 435)
         Me.RichTextBox79.Name = "RichTextBox79"
         Me.RichTextBox79.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox79.TabIndex = 100
@@ -1080,7 +1084,7 @@ Partial Class Form1
         '
         'RichTextBox80
         '
-        Me.RichTextBox80.Location = New System.Drawing.Point(369, 465)
+        Me.RichTextBox80.Location = New System.Drawing.Point(351, 481)
         Me.RichTextBox80.Name = "RichTextBox80"
         Me.RichTextBox80.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox80.TabIndex = 101
@@ -1088,7 +1092,7 @@ Partial Class Form1
         '
         'RichTextBox82
         '
-        Me.RichTextBox82.Location = New System.Drawing.Point(461, 280)
+        Me.RichTextBox82.Location = New System.Drawing.Point(443, 296)
         Me.RichTextBox82.Name = "RichTextBox82"
         Me.RichTextBox82.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox82.TabIndex = 103
@@ -1096,7 +1100,7 @@ Partial Class Form1
         '
         'RichTextBox83
         '
-        Me.RichTextBox83.Location = New System.Drawing.Point(415, 280)
+        Me.RichTextBox83.Location = New System.Drawing.Point(397, 296)
         Me.RichTextBox83.Name = "RichTextBox83"
         Me.RichTextBox83.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox83.TabIndex = 104
@@ -1104,7 +1108,7 @@ Partial Class Form1
         '
         'RichTextBox84
         '
-        Me.RichTextBox84.Location = New System.Drawing.Point(415, 234)
+        Me.RichTextBox84.Location = New System.Drawing.Point(397, 250)
         Me.RichTextBox84.Name = "RichTextBox84"
         Me.RichTextBox84.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox84.TabIndex = 105
@@ -1112,7 +1116,7 @@ Partial Class Form1
         '
         'RichTextBox85
         '
-        Me.RichTextBox85.Location = New System.Drawing.Point(461, 234)
+        Me.RichTextBox85.Location = New System.Drawing.Point(443, 250)
         Me.RichTextBox85.Name = "RichTextBox85"
         Me.RichTextBox85.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox85.TabIndex = 106
@@ -1120,7 +1124,7 @@ Partial Class Form1
         '
         'RichTextBox86
         '
-        Me.RichTextBox86.Location = New System.Drawing.Point(507, 234)
+        Me.RichTextBox86.Location = New System.Drawing.Point(489, 250)
         Me.RichTextBox86.Name = "RichTextBox86"
         Me.RichTextBox86.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox86.TabIndex = 107
@@ -1128,7 +1132,7 @@ Partial Class Form1
         '
         'RichTextBox87
         '
-        Me.RichTextBox87.Location = New System.Drawing.Point(553, 234)
+        Me.RichTextBox87.Location = New System.Drawing.Point(535, 250)
         Me.RichTextBox87.Name = "RichTextBox87"
         Me.RichTextBox87.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox87.TabIndex = 108
@@ -1136,7 +1140,7 @@ Partial Class Form1
         '
         'RichTextBox88
         '
-        Me.RichTextBox88.Location = New System.Drawing.Point(507, 326)
+        Me.RichTextBox88.Location = New System.Drawing.Point(489, 342)
         Me.RichTextBox88.Name = "RichTextBox88"
         Me.RichTextBox88.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox88.TabIndex = 109
@@ -1144,7 +1148,7 @@ Partial Class Form1
         '
         'RichTextBox89
         '
-        Me.RichTextBox89.Location = New System.Drawing.Point(461, 326)
+        Me.RichTextBox89.Location = New System.Drawing.Point(443, 342)
         Me.RichTextBox89.Name = "RichTextBox89"
         Me.RichTextBox89.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox89.TabIndex = 110
@@ -1152,7 +1156,7 @@ Partial Class Form1
         '
         'RichTextBox90
         '
-        Me.RichTextBox90.Location = New System.Drawing.Point(415, 372)
+        Me.RichTextBox90.Location = New System.Drawing.Point(397, 388)
         Me.RichTextBox90.Name = "RichTextBox90"
         Me.RichTextBox90.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox90.TabIndex = 111
@@ -1160,7 +1164,7 @@ Partial Class Form1
         '
         'RichTextBox91
         '
-        Me.RichTextBox91.Location = New System.Drawing.Point(415, 326)
+        Me.RichTextBox91.Location = New System.Drawing.Point(397, 342)
         Me.RichTextBox91.Name = "RichTextBox91"
         Me.RichTextBox91.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox91.TabIndex = 112
@@ -1168,7 +1172,7 @@ Partial Class Form1
         '
         'RichTextBox92
         '
-        Me.RichTextBox92.Location = New System.Drawing.Point(645, 280)
+        Me.RichTextBox92.Location = New System.Drawing.Point(627, 296)
         Me.RichTextBox92.Name = "RichTextBox92"
         Me.RichTextBox92.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox92.TabIndex = 113
@@ -1176,7 +1180,7 @@ Partial Class Form1
         '
         'RichTextBox93
         '
-        Me.RichTextBox93.Location = New System.Drawing.Point(599, 280)
+        Me.RichTextBox93.Location = New System.Drawing.Point(581, 296)
         Me.RichTextBox93.Name = "RichTextBox93"
         Me.RichTextBox93.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox93.TabIndex = 114
@@ -1184,7 +1188,7 @@ Partial Class Form1
         '
         'RichTextBox94
         '
-        Me.RichTextBox94.Location = New System.Drawing.Point(553, 280)
+        Me.RichTextBox94.Location = New System.Drawing.Point(535, 296)
         Me.RichTextBox94.Name = "RichTextBox94"
         Me.RichTextBox94.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox94.TabIndex = 115
@@ -1192,7 +1196,7 @@ Partial Class Form1
         '
         'RichTextBox95
         '
-        Me.RichTextBox95.Location = New System.Drawing.Point(507, 280)
+        Me.RichTextBox95.Location = New System.Drawing.Point(489, 296)
         Me.RichTextBox95.Name = "RichTextBox95"
         Me.RichTextBox95.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox95.TabIndex = 116
@@ -1200,7 +1204,7 @@ Partial Class Form1
         '
         'RichTextBox96
         '
-        Me.RichTextBox96.Location = New System.Drawing.Point(507, 372)
+        Me.RichTextBox96.Location = New System.Drawing.Point(489, 388)
         Me.RichTextBox96.Name = "RichTextBox96"
         Me.RichTextBox96.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox96.TabIndex = 117
@@ -1208,7 +1212,7 @@ Partial Class Form1
         '
         'RichTextBox99
         '
-        Me.RichTextBox99.Location = New System.Drawing.Point(461, 464)
+        Me.RichTextBox99.Location = New System.Drawing.Point(443, 480)
         Me.RichTextBox99.Name = "RichTextBox99"
         Me.RichTextBox99.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox99.TabIndex = 120
@@ -1216,7 +1220,7 @@ Partial Class Form1
         '
         'RichTextBox100
         '
-        Me.RichTextBox100.Location = New System.Drawing.Point(415, 465)
+        Me.RichTextBox100.Location = New System.Drawing.Point(397, 481)
         Me.RichTextBox100.Name = "RichTextBox100"
         Me.RichTextBox100.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox100.TabIndex = 121
@@ -1224,7 +1228,7 @@ Partial Class Form1
         '
         'RichTextBox101
         '
-        Me.RichTextBox101.Location = New System.Drawing.Point(461, 419)
+        Me.RichTextBox101.Location = New System.Drawing.Point(443, 435)
         Me.RichTextBox101.Name = "RichTextBox101"
         Me.RichTextBox101.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox101.TabIndex = 122
@@ -1232,7 +1236,7 @@ Partial Class Form1
         '
         'RichTextBox102
         '
-        Me.RichTextBox102.Location = New System.Drawing.Point(461, 372)
+        Me.RichTextBox102.Location = New System.Drawing.Point(443, 388)
         Me.RichTextBox102.Name = "RichTextBox102"
         Me.RichTextBox102.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox102.TabIndex = 123
@@ -1240,7 +1244,7 @@ Partial Class Form1
         '
         'RichTextBox103
         '
-        Me.RichTextBox103.Location = New System.Drawing.Point(415, 418)
+        Me.RichTextBox103.Location = New System.Drawing.Point(397, 434)
         Me.RichTextBox103.Name = "RichTextBox103"
         Me.RichTextBox103.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox103.TabIndex = 124
@@ -1248,7 +1252,7 @@ Partial Class Form1
         '
         'RichTextBox104
         '
-        Me.RichTextBox104.Location = New System.Drawing.Point(553, 373)
+        Me.RichTextBox104.Location = New System.Drawing.Point(535, 389)
         Me.RichTextBox104.Name = "RichTextBox104"
         Me.RichTextBox104.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox104.TabIndex = 125
@@ -1256,7 +1260,7 @@ Partial Class Form1
         '
         'RichTextBox105
         '
-        Me.RichTextBox105.Location = New System.Drawing.Point(645, 326)
+        Me.RichTextBox105.Location = New System.Drawing.Point(627, 342)
         Me.RichTextBox105.Name = "RichTextBox105"
         Me.RichTextBox105.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox105.TabIndex = 126
@@ -1264,7 +1268,7 @@ Partial Class Form1
         '
         'RichTextBox106
         '
-        Me.RichTextBox106.Location = New System.Drawing.Point(599, 326)
+        Me.RichTextBox106.Location = New System.Drawing.Point(581, 342)
         Me.RichTextBox106.Name = "RichTextBox106"
         Me.RichTextBox106.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox106.TabIndex = 127
@@ -1272,7 +1276,7 @@ Partial Class Form1
         '
         'RichTextBox107
         '
-        Me.RichTextBox107.Location = New System.Drawing.Point(553, 327)
+        Me.RichTextBox107.Location = New System.Drawing.Point(535, 343)
         Me.RichTextBox107.Name = "RichTextBox107"
         Me.RichTextBox107.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox107.TabIndex = 128
@@ -1280,7 +1284,7 @@ Partial Class Form1
         '
         'RichTextBox108
         '
-        Me.RichTextBox108.Location = New System.Drawing.Point(645, 373)
+        Me.RichTextBox108.Location = New System.Drawing.Point(627, 389)
         Me.RichTextBox108.Name = "RichTextBox108"
         Me.RichTextBox108.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox108.TabIndex = 129
@@ -1288,7 +1292,7 @@ Partial Class Form1
         '
         'RichTextBox109
         '
-        Me.RichTextBox109.Location = New System.Drawing.Point(599, 372)
+        Me.RichTextBox109.Location = New System.Drawing.Point(581, 388)
         Me.RichTextBox109.Name = "RichTextBox109"
         Me.RichTextBox109.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox109.TabIndex = 130
@@ -1296,7 +1300,7 @@ Partial Class Form1
         '
         'RichTextBox111
         '
-        Me.RichTextBox111.Location = New System.Drawing.Point(507, 465)
+        Me.RichTextBox111.Location = New System.Drawing.Point(489, 481)
         Me.RichTextBox111.Name = "RichTextBox111"
         Me.RichTextBox111.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox111.TabIndex = 132
@@ -1304,7 +1308,7 @@ Partial Class Form1
         '
         'RichTextBox112
         '
-        Me.RichTextBox112.Location = New System.Drawing.Point(507, 419)
+        Me.RichTextBox112.Location = New System.Drawing.Point(489, 435)
         Me.RichTextBox112.Name = "RichTextBox112"
         Me.RichTextBox112.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox112.TabIndex = 133
@@ -1312,7 +1316,7 @@ Partial Class Form1
         '
         'RichTextBox114
         '
-        Me.RichTextBox114.Location = New System.Drawing.Point(599, 464)
+        Me.RichTextBox114.Location = New System.Drawing.Point(581, 480)
         Me.RichTextBox114.Name = "RichTextBox114"
         Me.RichTextBox114.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox114.TabIndex = 135
@@ -1320,7 +1324,7 @@ Partial Class Form1
         '
         'RichTextBox115
         '
-        Me.RichTextBox115.Location = New System.Drawing.Point(553, 464)
+        Me.RichTextBox115.Location = New System.Drawing.Point(535, 480)
         Me.RichTextBox115.Name = "RichTextBox115"
         Me.RichTextBox115.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox115.TabIndex = 136
@@ -1328,7 +1332,7 @@ Partial Class Form1
         '
         'RichTextBox116
         '
-        Me.RichTextBox116.Location = New System.Drawing.Point(645, 419)
+        Me.RichTextBox116.Location = New System.Drawing.Point(627, 435)
         Me.RichTextBox116.Name = "RichTextBox116"
         Me.RichTextBox116.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox116.TabIndex = 137
@@ -1336,7 +1340,7 @@ Partial Class Form1
         '
         'RichTextBox117
         '
-        Me.RichTextBox117.Location = New System.Drawing.Point(599, 418)
+        Me.RichTextBox117.Location = New System.Drawing.Point(581, 434)
         Me.RichTextBox117.Name = "RichTextBox117"
         Me.RichTextBox117.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox117.TabIndex = 138
@@ -1344,7 +1348,7 @@ Partial Class Form1
         '
         'RichTextBox118
         '
-        Me.RichTextBox118.Location = New System.Drawing.Point(553, 418)
+        Me.RichTextBox118.Location = New System.Drawing.Point(535, 434)
         Me.RichTextBox118.Name = "RichTextBox118"
         Me.RichTextBox118.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox118.TabIndex = 139
@@ -1352,17 +1356,60 @@ Partial Class Form1
         '
         'RichTextBox121
         '
-        Me.RichTextBox121.Location = New System.Drawing.Point(645, 465)
+        Me.RichTextBox121.Location = New System.Drawing.Point(627, 481)
         Me.RichTextBox121.Name = "RichTextBox121"
         Me.RichTextBox121.Size = New System.Drawing.Size(40, 40)
         Me.RichTextBox121.TabIndex = 142
         Me.RichTextBox121.Text = ""
         '
-        'Form1
+        'lblEquation
+        '
+        Me.lblEquation.AutoSize = True
+        Me.lblEquation.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblEquation.Location = New System.Drawing.Point(722, 92)
+        Me.lblEquation.Name = "lblEquation"
+        Me.lblEquation.Size = New System.Drawing.Size(80, 25)
+        Me.lblEquation.TabIndex = 143
+        Me.lblEquation.Text = "Ready!"
+        '
+        'lblInput
+        '
+        Me.lblInput.AutoSize = True
+        Me.lblInput.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblInput.Location = New System.Drawing.Point(808, 92)
+        Me.lblInput.Name = "lblInput"
+        Me.lblInput.Size = New System.Drawing.Size(0, 25)
+        Me.lblInput.TabIndex = 144
+        '
+        'Label23
+        '
+        Me.Label23.AutoSize = True
+        Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label23.Location = New System.Drawing.Point(727, 220)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(122, 25)
+        Me.Label23.TabIndex = 145
+        Me.Label23.Text = "Total Right:"
+        '
+        'lblTotalRight
+        '
+        Me.lblTotalRight.AutoSize = True
+        Me.lblTotalRight.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTotalRight.Location = New System.Drawing.Point(769, 266)
+        Me.lblTotalRight.Name = "lblTotalRight"
+        Me.lblTotalRight.Size = New System.Drawing.Size(20, 24)
+        Me.lblTotalRight.TabIndex = 146
+        Me.lblTotalRight.Text = "0"
+        '
+        'frmTimeTable
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(953, 581)
+        Me.ClientSize = New System.Drawing.Size(901, 510)
+        Me.Controls.Add(Me.lblTotalRight)
+        Me.Controls.Add(Me.Label23)
+        Me.Controls.Add(Me.lblInput)
+        Me.Controls.Add(Me.lblEquation)
         Me.Controls.Add(Me.RichTextBox121)
         Me.Controls.Add(Me.RichTextBox120)
         Me.Controls.Add(Me.RichTextBox119)
@@ -1506,8 +1553,8 @@ Partial Class Form1
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Name = "frmTimeTable"
+        Me.Text = "Time for Times"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1655,5 +1702,9 @@ Partial Class Form1
     Friend WithEvents RichTextBox117 As System.Windows.Forms.RichTextBox
     Friend WithEvents RichTextBox118 As System.Windows.Forms.RichTextBox
     Friend WithEvents RichTextBox121 As System.Windows.Forms.RichTextBox
+    Friend WithEvents lblEquation As System.Windows.Forms.Label
+    Friend WithEvents lblInput As System.Windows.Forms.Label
+    Friend WithEvents Label23 As System.Windows.Forms.Label
+    Friend WithEvents lblTotalRight As System.Windows.Forms.Label
 
 End Class
