@@ -1,11 +1,14 @@
 ﻿Imports System
 Imports System.String
+Imports System.Text.RegularExpressions
+Imports System.ConsoleKey
+
 Public Class frmTimeTable
     Dim strInput As String
     Dim strAnswer As String
     Dim intTotalRight As Integer
 
-
+    ' checks the user input against the right answer
     Sub CheckAnswer(ByVal input As String, ByVal answer As String, ByRef txtbox As RichTextBox)
         intTotalRight = Convert.ToInt32(lblTotalRight.Text)
 
@@ -23,16 +26,40 @@ Public Class frmTimeTable
         End If
     End Sub
 
+    ' for pressing the enter key in a textbox
+    Private Sub Form1_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles Me.KeyPress
+        If e.KeyChar = Microsoft.VisualBasic.ChrW(Keys.Return) Then
+            SendKeys.Send("{TAB}")
+            e.Handled = True
+        End If
 
-    Private Sub txt0x0_TextChanged(sender As Object, e As EventArgs) Handles txt0x0.TextChanged
-        txt0x0.SelectionAlignment = HorizontalAlignment.Center
-        lblEquation.Text = "0 X 0 =  "
-        strAnswer = "0"
-        strInput = txt0x0.Text
-        lblInput.Text = txt0x0.Text
-
-        CheckAnswer(strInput, strAnswer, txt0x0)
     End Sub
+
+    Private Sub txt0x0_KeyDown(sender As Object, e As System.Windows.Forms.KeyEventArgs) Handles txt0x0.KeyDown
+        If e.KeyCode = Keys.Enter Then
+            txt0x0.SelectionAlignment = HorizontalAlignment.Center
+            lblEquation.Text = "0 X 0 =  "
+            strAnswer = "0"
+            strInput = txt0x0.Text
+            lblInput.Text = txt0x0.Text
+
+            CheckAnswer(strInput, strAnswer, txt0x0)
+        End If
+    End Sub
+
+
+    'Private Sub txt0x0_TextChanged(sender As Object, e As EventArgs) Handles txt0x0.TextChanged
+
+
+    '    txt0x0.SelectionAlignment = HorizontalAlignment.Center
+    '    lblEquation.Text = "0 X 0 =  "
+    '    strAnswer = "0"
+    '    strInput = txt0x0.Text
+    '    lblInput.Text = txt0x0.Text
+
+    '    CheckAnswer(strInput, strAnswer, txt0x0)
+
+    'End Sub
 
     
 
@@ -218,7 +245,9 @@ Public Class frmTimeTable
         lblEquation.Text = "3 X 10 ="
         txt3x10.SelectionAlignment = HorizontalAlignment.Center
     End Sub
- 
+
+    'takes input and calls the CheckAnswer function
+
     Private Sub txt0x1_TextChanged(sender As Object, e As EventArgs) Handles txt0x1.TextChanged
         strAnswer = "0"
         strInput = txt0x1.Text

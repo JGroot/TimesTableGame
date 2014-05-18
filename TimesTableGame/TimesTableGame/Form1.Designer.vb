@@ -502,6 +502,8 @@ Partial Class frmTimeTable
         '
         Me.txt0x2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt0x2.Location = New System.Drawing.Point(259, 66)
+        Me.txt0x2.MaxLength = 2
+        Me.txt0x2.Multiline = False
         Me.txt0x2.Name = "txt0x2"
         Me.txt0x2.Size = New System.Drawing.Size(40, 40)
         Me.txt0x2.TabIndex = 2
@@ -511,6 +513,8 @@ Partial Class frmTimeTable
         '
         Me.txt0x1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt0x1.Location = New System.Drawing.Point(213, 66)
+        Me.txt0x1.MaxLength = 2
+        Me.txt0x1.Multiline = False
         Me.txt0x1.Name = "txt0x1"
         Me.txt0x1.Size = New System.Drawing.Size(40, 40)
         Me.txt0x1.TabIndex = 1
@@ -1679,6 +1683,7 @@ Partial Class frmTimeTable
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.KeyPreview = True
         Me.Name = "frmTimeTable"
         Me.Text = "Time for Times"
         Me.ResumeLayout(False)
