@@ -403,9 +403,10 @@ Partial Class frmTimeTable
         '
         Me.txt0x0.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt0x0.Location = New System.Drawing.Point(167, 66)
-        Me.txt0x0.MaxLength = 3
+        Me.txt0x0.MaxLength = 2
         Me.txt0x0.Multiline = False
         Me.txt0x0.Name = "txt0x0"
+        Me.txt0x0.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None
         Me.txt0x0.Size = New System.Drawing.Size(40, 40)
         Me.txt0x0.TabIndex = 0
         Me.txt0x0.Text = ""
