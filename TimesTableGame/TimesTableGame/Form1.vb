@@ -130,9 +130,9 @@ Public Class frmTimeTable
         lblEquation.Text = "1 X 10 ="
         txt1x10.SelectionAlignment = HorizontalAlignment.Center
     End Sub
-    Private Sub txt1x10_GotFocus(sender As Object, e As EventArgs) Handles txt1x10.GotFocus
-        lblEquation.Text = "1 X 10 ="
-        txt1x10.SelectionAlignment = HorizontalAlignment.Center
+    Private Sub txt2x0_GotFocus(sender As Object, e As EventArgs) Handles txt2x0.GotFocus
+        lblEquation.Text = "2 X 0 ="
+        txt2x0.SelectionAlignment = HorizontalAlignment.Center
     End Sub
     Private Sub txt2x1_GotFocus(sender As Object, e As EventArgs) Handles txt2x1.GotFocus
         lblEquation.Text = "2 X 1 ="
@@ -144,7 +144,7 @@ Public Class frmTimeTable
     End Sub
     Private Sub txt2x3_GotFocus(sender As Object, e As EventArgs) Handles txt2x3.GotFocus
         lblEquation.Text = "2 X 3 ="
-        txt2x0.SelectionAlignment = HorizontalAlignment.Center
+        txt2x3.SelectionAlignment = HorizontalAlignment.Center
     End Sub
     Private Sub txt2x4_GotFocus(sender As Object, e As EventArgs) Handles txt2x4.GotFocus
         lblEquation.Text = "2 X 4 ="
@@ -173,6 +173,50 @@ Public Class frmTimeTable
     Private Sub txt2x10_GotFocus(sender As Object, e As EventArgs) Handles txt2x10.GotFocus
         lblEquation.Text = "2 X 10 ="
         txt2x10.SelectionAlignment = HorizontalAlignment.Center
+    End Sub
+    Private Sub txt3x0_GotFocus(sender As Object, e As EventArgs) Handles txt3x0.GotFocus
+        lblEquation.Text = "3 X 0 ="
+        txt3x0.SelectionAlignment = HorizontalAlignment.Center
+    End Sub
+    Private Sub txt3x1_GotFocus(sender As Object, e As EventArgs) Handles txt3x1.GotFocus
+        lblEquation.Text = "3 X 1 ="
+        txt3x1.SelectionAlignment = HorizontalAlignment.Center
+    End Sub
+    Private Sub txt3x2_GotFocus(sender As Object, e As EventArgs) Handles txt3x2.GotFocus
+        lblEquation.Text = "3 X 2 ="
+        txt3x2.SelectionAlignment = HorizontalAlignment.Center
+    End Sub
+    Private Sub txt3x3_GotFocus(sender As Object, e As EventArgs) Handles txt3x3.GotFocus
+        lblEquation.Text = "3 X 3 ="
+        txt3x3.SelectionAlignment = HorizontalAlignment.Center
+    End Sub
+    Private Sub txt3x4_GotFocus(sender As Object, e As EventArgs) Handles txt3x4.GotFocus
+        lblEquation.Text = "3 X 4 ="
+        txt3x4.SelectionAlignment = HorizontalAlignment.Center
+    End Sub
+    Private Sub txt3x5_GotFocus(sender As Object, e As EventArgs) Handles txt3x5.GotFocus
+        lblEquation.Text = "3 X 5 ="
+        txt3x5.SelectionAlignment = HorizontalAlignment.Center
+    End Sub
+    Private Sub txt3x6_GotFocus(sender As Object, e As EventArgs) Handles txt3x6.GotFocus
+        lblEquation.Text = "3 X 6 ="
+        txt3x6.SelectionAlignment = HorizontalAlignment.Center
+    End Sub
+    Private Sub txt3x7_GotFocus(sender As Object, e As EventArgs) Handles txt3x7.GotFocus
+        lblEquation.Text = "3 X 7 ="
+        txt3x7.SelectionAlignment = HorizontalAlignment.Center
+    End Sub
+    Private Sub txt3x8_GotFocus(sender As Object, e As EventArgs) Handles txt3x8.GotFocus
+        lblEquation.Text = "3 X 8 ="
+        txt3x8.SelectionAlignment = HorizontalAlignment.Center
+    End Sub
+    Private Sub txt3x9_GotFocus(sender As Object, e As EventArgs) Handles txt3x9.GotFocus
+        lblEquation.Text = "3 X 9 ="
+        txt3x9.SelectionAlignment = HorizontalAlignment.Center
+    End Sub
+    Private Sub txt3x10_GotFocus(sender As Object, e As EventArgs) Handles txt3x10.GotFocus
+        lblEquation.Text = "3 X 10 ="
+        txt3x10.SelectionAlignment = HorizontalAlignment.Center
     End Sub
  
     Private Sub txt0x1_TextChanged(sender As Object, e As EventArgs) Handles txt0x1.TextChanged
@@ -262,12 +306,236 @@ Public Class frmTimeTable
         CheckAnswer(strInput, strAnswer, txt0x10)
     End Sub
 
+    Private Sub txt1x0_TextChanged(sender As Object, e As EventArgs) Handles txt1x0.TextChanged
+        strAnswer = "0"
+        strInput = txt1x0.Text
+        lblInput.Text = txt1x0.Text
 
+        CheckAnswer(strInput, strAnswer, txt1x0)
+    End Sub
+    Private Sub txt1x1_TextChanged(sender As Object, e As EventArgs) Handles txt1x1.TextChanged
+        strAnswer = "1"
+        strInput = txt1x1.Text
+        lblInput.Text = txt1x1.Text
+
+        CheckAnswer(strInput, strAnswer, txt1x1)
+    End Sub
     Private Sub txt1x2_TextChanged(sender As Object, e As EventArgs) Handles txt1x2.TextChanged
+        strAnswer = "2"
+        strInput = txt1x2.Text
+        lblInput.Text = txt1x2.Text
 
+        CheckAnswer(strInput, strAnswer, txt1x2)
+    End Sub
+    Private Sub txt1x3_TextChanged(sender As Object, e As EventArgs) Handles txt1x3.TextChanged
+        strAnswer = "3"
+        strInput = txt1x3.Text
+        lblInput.Text = txt1x3.Text
+
+        CheckAnswer(strInput, strAnswer, txt1x3)
+    End Sub
+    Private Sub txt1x4_TextChanged(sender As Object, e As EventArgs) Handles txt1x4.TextChanged
+        strAnswer = "4"
+        strInput = txt1x4.Text
+        lblInput.Text = txt1x4.Text
+
+        CheckAnswer(strInput, strAnswer, txt1x4)
+    End Sub
+    Private Sub txt1x5_TextChanged(sender As Object, e As EventArgs) Handles txt1x5.TextChanged
+        strAnswer = "5"
+        strInput = txt1x5.Text
+        lblInput.Text = txt1x5.Text
+
+        CheckAnswer(strInput, strAnswer, txt1x5)
+    End Sub
+    Private Sub txt1x6_TextChanged(sender As Object, e As EventArgs) Handles txt1x6.TextChanged
+        strAnswer = "6"
+        strInput = txt1x6.Text
+        lblInput.Text = txt1x6.Text
+
+        CheckAnswer(strInput, strAnswer, txt1x6)
+    End Sub
+    Private Sub txt1x7_TextChanged(sender As Object, e As EventArgs) Handles txt1x7.TextChanged
+        strAnswer = "7"
+        strInput = txt1x7.Text
+        lblInput.Text = txt1x7.Text
+
+        CheckAnswer(strInput, strAnswer, txt1x7)
+    End Sub
+    Private Sub txt1x8_TextChanged(sender As Object, e As EventArgs) Handles txt1x8.TextChanged
+        strAnswer = "8"
+        strInput = txt1x8.Text
+        lblInput.Text = txt1x8.Text
+
+        CheckAnswer(strInput, strAnswer, txt1x8)
+    End Sub
+    Private Sub txt1x9_TextChanged(sender As Object, e As EventArgs) Handles txt1x9.TextChanged
+        strAnswer = "9"
+        strInput = txt1x9.Text
+        lblInput.Text = txt1x9.Text
+
+        CheckAnswer(strInput, strAnswer, txt1x9)
+    End Sub
+    Private Sub txt1x10_TextChanged(sender As Object, e As EventArgs) Handles txt1x10.TextChanged
+        strAnswer = "10"
+        strInput = txt1x10.Text
+        lblInput.Text = txt1x10.Text
+
+        CheckAnswer(strInput, strAnswer, txt1x10)
     End Sub
 
-    Private Sub txt1x5_TextChanged(sender As Object, e As EventArgs) Handles txt1x5.TextChanged
+    Private Sub txt2x0_TextChanged(sender As Object, e As EventArgs) Handles txt2x0.TextChanged
+        strAnswer = "0"
+        strInput = txt2x0.Text
+        lblInput.Text = txt2x0.Text
 
+        CheckAnswer(strInput, strAnswer, txt2x0)
+    End Sub
+    Private Sub txt2x1_TextChanged(sender As Object, e As EventArgs) Handles txt2x1.TextChanged
+        strAnswer = "2"
+        strInput = txt2x1.Text
+        lblInput.Text = txt2x1.Text
+
+        CheckAnswer(strInput, strAnswer, txt2x1)
+    End Sub
+    Private Sub txt2x2_TextChanged(sender As Object, e As EventArgs) Handles txt2x2.TextChanged
+        strAnswer = "4"
+        strInput = txt2x2.Text
+        lblInput.Text = txt2x2.Text
+
+        CheckAnswer(strInput, strAnswer, txt2x2)
+    End Sub
+    Private Sub txt2x3_TextChanged(sender As Object, e As EventArgs) Handles txt2x3.TextChanged
+        strAnswer = "6"
+        strInput = txt2x3.Text
+        lblInput.Text = txt2x3.Text
+
+        CheckAnswer(strInput, strAnswer, txt2x3)
+    End Sub
+    Private Sub txt2x4_TextChanged(sender As Object, e As EventArgs) Handles txt2x4.TextChanged
+        strAnswer = "8"
+        strInput = txt2x4.Text
+        lblInput.Text = txt2x4.Text
+
+        CheckAnswer(strInput, strAnswer, txt2x4)
+    End Sub
+    Private Sub txt2x5_TextChanged(sender As Object, e As EventArgs) Handles txt2x5.TextChanged
+        strAnswer = "10"
+        strInput = txt2x5.Text
+        lblInput.Text = txt2x5.Text
+
+        CheckAnswer(strInput, strAnswer, txt2x5)
+    End Sub
+    Private Sub txt2x6_TextChanged(sender As Object, e As EventArgs) Handles txt2x6.TextChanged
+        strAnswer = "12"
+        strInput = txt2x6.Text
+        lblInput.Text = txt2x6.Text
+
+        CheckAnswer(strInput, strAnswer, txt2x6)
+    End Sub
+    Private Sub txt2x7_TextChanged(sender As Object, e As EventArgs) Handles txt2x7.TextChanged
+        strAnswer = "14"
+        strInput = txt2x7.Text
+        lblInput.Text = txt2x7.Text
+
+        CheckAnswer(strInput, strAnswer, txt2x7)
+    End Sub
+    Private Sub txt2x8_TextChanged(sender As Object, e As EventArgs) Handles txt2x8.TextChanged
+        strAnswer = "16"
+        strInput = txt2x8.Text
+        lblInput.Text = txt2x8.Text
+
+        CheckAnswer(strInput, strAnswer, txt2x8)
+    End Sub
+    Private Sub txt2x9_TextChanged(sender As Object, e As EventArgs) Handles txt2x9.TextChanged
+        strAnswer = "18"
+        strInput = txt2x9.Text
+        lblInput.Text = txt2x9.Text
+
+        CheckAnswer(strInput, strAnswer, txt2x9)
+    End Sub
+    Private Sub txt2x10_TextChanged(sender As Object, e As EventArgs) Handles txt2x10.TextChanged
+        strAnswer = "20"
+        strInput = txt2x10.Text
+        lblInput.Text = txt2x10.Text
+
+        CheckAnswer(strInput, strAnswer, txt2x10)
+    End Sub
+    Private Sub txt3x0_TextChanged(sender As Object, e As EventArgs) Handles txt3x0.TextChanged
+        strAnswer = "0"
+        strInput = txt3x0.Text
+        lblInput.Text = txt3x0.Text
+
+        CheckAnswer(strInput, strAnswer, txt3x0)
+    End Sub
+    Private Sub txt3x1_TextChanged(sender As Object, e As EventArgs) Handles txt3x1.TextChanged
+        strAnswer = "3"
+        strInput = txt3x1.Text
+        lblInput.Text = txt3x1.Text
+
+        CheckAnswer(strInput, strAnswer, txt3x1)
+    End Sub
+    Private Sub txt3x2_TextChanged(sender As Object, e As EventArgs) Handles txt3x2.TextChanged
+        strAnswer = "6"
+        strInput = txt3x2.Text
+        lblInput.Text = txt3x2.Text
+
+        CheckAnswer(strInput, strAnswer, txt3x2)
+    End Sub
+    Private Sub txt3x3_TextChanged(sender As Object, e As EventArgs) Handles txt3x3.TextChanged
+        strAnswer = "9"
+        strInput = txt3x3.Text
+        lblInput.Text = txt3x3.Text
+
+        CheckAnswer(strInput, strAnswer, txt3x3)
+    End Sub
+    Private Sub txt3x4_TextChanged(sender As Object, e As EventArgs) Handles txt3x4.TextChanged
+        strAnswer = "12"
+        strInput = txt3x4.Text
+        lblInput.Text = txt3x4.Text
+
+        CheckAnswer(strInput, strAnswer, txt3x4)
+    End Sub
+    Private Sub txt3x5_TextChanged(sender As Object, e As EventArgs) Handles txt3x5.TextChanged
+        strAnswer = "15"
+        strInput = txt3x5.Text
+        lblInput.Text = txt3x5.Text
+
+        CheckAnswer(strInput, strAnswer, txt3x5)
+    End Sub
+    Private Sub txt3x6_TextChanged(sender As Object, e As EventArgs) Handles txt3x6.TextChanged
+        strAnswer = "18"
+        strInput = txt3x6.Text
+        lblInput.Text = txt3x6.Text
+
+        CheckAnswer(strInput, strAnswer, txt3x6)
+    End Sub
+    Private Sub txt3x7_TextChanged(sender As Object, e As EventArgs) Handles txt3x7.TextChanged
+        strAnswer = "21"
+        strInput = txt3x7.Text
+        lblInput.Text = txt3x7.Text
+
+        CheckAnswer(strInput, strAnswer, txt3x7)
+    End Sub
+    Private Sub txt3x8_TextChanged(sender As Object, e As EventArgs) Handles txt3x8.TextChanged
+        strAnswer = "24"
+        strInput = txt3x8.Text
+        lblInput.Text = txt3x8.Text
+
+        CheckAnswer(strInput, strAnswer, txt3x8)
+    End Sub
+    Private Sub txt3x9_TextChanged(sender As Object, e As EventArgs) Handles txt3x9.TextChanged
+        strAnswer = "27"
+        strInput = txt3x9.Text
+        lblInput.Text = txt3x9.Text
+
+        CheckAnswer(strInput, strAnswer, txt3x9)
+    End Sub
+    Private Sub txt3x10_TextChanged(sender As Object, e As EventArgs) Handles txt3x10.TextChanged
+        strAnswer = "30"
+        strInput = txt3x10.Text
+        lblInput.Text = txt3x10.Text
+
+        CheckAnswer(strInput, strAnswer, txt3x10)
     End Sub
 End Class
