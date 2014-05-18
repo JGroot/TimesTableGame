@@ -86,6 +86,95 @@ Public Class frmTimeTable
         lblEquation.Text = "0 X 10 ="
         txt0x10.SelectionAlignment = HorizontalAlignment.Center
     End Sub
+    Private Sub txt1x0_GotFocus(sender As Object, e As EventArgs) Handles txt1x0.GotFocus
+        lblEquation.Text = "1 X 0 ="
+        txt1x0.SelectionAlignment = HorizontalAlignment.Center
+    End Sub
+    Private Sub txt1x1_GotFocus(sender As Object, e As EventArgs) Handles txt1x1.GotFocus
+        lblEquation.Text = "1 X 1 ="
+        txt1x1.SelectionAlignment = HorizontalAlignment.Center
+    End Sub
+    Private Sub txt1x2_GotFocus(sender As Object, e As EventArgs) Handles txt1x2.GotFocus
+        lblEquation.Text = "1 X 2 ="
+        txt1x2.SelectionAlignment = HorizontalAlignment.Center
+    End Sub
+    Private Sub txt1x3_GotFocus(sender As Object, e As EventArgs) Handles txt1x3.GotFocus
+        lblEquation.Text = "1 X 3 ="
+        txt1x3.SelectionAlignment = HorizontalAlignment.Center
+    End Sub
+    Private Sub txt1x4_GotFocus(sender As Object, e As EventArgs) Handles txt1x4.GotFocus
+        lblEquation.Text = "1 X 4 ="
+        txt1x4.SelectionAlignment = HorizontalAlignment.Center
+    End Sub
+    Private Sub txt1x5_GotFocus(sender As Object, e As EventArgs) Handles txt1x5.GotFocus
+        lblEquation.Text = "1 X 5 ="
+        txt1x5.SelectionAlignment = HorizontalAlignment.Center
+    End Sub
+    Private Sub txt1x6_GotFocus(sender As Object, e As EventArgs) Handles txt1x6.GotFocus
+        lblEquation.Text = "1 X 6 ="
+        txt1x6.SelectionAlignment = HorizontalAlignment.Center
+    End Sub
+    Private Sub txt1x7_GotFocus(sender As Object, e As EventArgs) Handles txt1x7.GotFocus
+        lblEquation.Text = "1 X 7 ="
+        txt1x7.SelectionAlignment = HorizontalAlignment.Center
+    End Sub
+    Private Sub txt1x8_GotFocus(sender As Object, e As EventArgs) Handles txt1x8.GotFocus
+        lblEquation.Text = "1 X 8 ="
+        txt1x8.SelectionAlignment = HorizontalAlignment.Center
+    End Sub
+    Private Sub txt1x9_GotFocus(sender As Object, e As EventArgs) Handles txt1x9.GotFocus
+        lblEquation.Text = "1 X 9 ="
+        txt1x9.SelectionAlignment = HorizontalAlignment.Center
+    End Sub
+    Private Sub txt1x10_GotFocus(sender As Object, e As EventArgs) Handles txt1x10.GotFocus
+        lblEquation.Text = "1 X 10 ="
+        txt1x10.SelectionAlignment = HorizontalAlignment.Center
+    End Sub
+    Private Sub txt1x10_GotFocus(sender As Object, e As EventArgs) Handles txt1x10.GotFocus
+        lblEquation.Text = "1 X 10 ="
+        txt1x10.SelectionAlignment = HorizontalAlignment.Center
+    End Sub
+    Private Sub txt2x1_GotFocus(sender As Object, e As EventArgs) Handles txt2x1.GotFocus
+        lblEquation.Text = "2 X 1 ="
+        txt2x1.SelectionAlignment = HorizontalAlignment.Center
+    End Sub
+    Private Sub txt2x2_GotFocus(sender As Object, e As EventArgs) Handles txt2x2.GotFocus
+        lblEquation.Text = "2 X 2 ="
+        txt2x2.SelectionAlignment = HorizontalAlignment.Center
+    End Sub
+    Private Sub txt2x3_GotFocus(sender As Object, e As EventArgs) Handles txt2x3.GotFocus
+        lblEquation.Text = "2 X 3 ="
+        txt2x0.SelectionAlignment = HorizontalAlignment.Center
+    End Sub
+    Private Sub txt2x4_GotFocus(sender As Object, e As EventArgs) Handles txt2x4.GotFocus
+        lblEquation.Text = "2 X 4 ="
+        txt2x4.SelectionAlignment = HorizontalAlignment.Center
+    End Sub
+    Private Sub txt2x5_GotFocus(sender As Object, e As EventArgs) Handles txt2x5.GotFocus
+        lblEquation.Text = "2 X 5 ="
+        txt2x5.SelectionAlignment = HorizontalAlignment.Center
+    End Sub
+    Private Sub txt2x6_GotFocus(sender As Object, e As EventArgs) Handles txt2x6.GotFocus
+        lblEquation.Text = "2 X 6 ="
+        txt2x6.SelectionAlignment = HorizontalAlignment.Center
+    End Sub
+    Private Sub txt2x7_GotFocus(sender As Object, e As EventArgs) Handles txt2x7.GotFocus
+        lblEquation.Text = "2 X 7 ="
+        txt2x7.SelectionAlignment = HorizontalAlignment.Center
+    End Sub
+    Private Sub txt2x8_GotFocus(sender As Object, e As EventArgs) Handles txt2x8.GotFocus
+        lblEquation.Text = "2 X 8 ="
+        txt2x8.SelectionAlignment = HorizontalAlignment.Center
+    End Sub
+    Private Sub txt2x9_GotFocus(sender As Object, e As EventArgs) Handles txt2x9.GotFocus
+        lblEquation.Text = "2 X 9 ="
+        txt2x9.SelectionAlignment = HorizontalAlignment.Center
+    End Sub
+    Private Sub txt2x10_GotFocus(sender As Object, e As EventArgs) Handles txt2x10.GotFocus
+        lblEquation.Text = "2 X 10 ="
+        txt2x10.SelectionAlignment = HorizontalAlignment.Center
+    End Sub
+ 
     Private Sub txt0x1_TextChanged(sender As Object, e As EventArgs) Handles txt0x1.TextChanged
         strAnswer = "0"
         strInput = txt0x1.Text
@@ -174,4 +263,11 @@ Public Class frmTimeTable
     End Sub
 
 
+    Private Sub txt1x2_TextChanged(sender As Object, e As EventArgs) Handles txt1x2.TextChanged
+
+    End Sub
+
+    Private Sub txt1x5_TextChanged(sender As Object, e As EventArgs) Handles txt1x5.TextChanged
+
+    End Sub
 End Class
