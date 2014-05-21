@@ -28,17 +28,34 @@ Public Class frmTimeTable
 
     End Sub
 
+
+
+
+
     ' for pressing the enter key in a textbox
     Private Sub Form1_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles Me.KeyPress
         If e.KeyChar = Microsoft.VisualBasic.ChrW(Keys.Return) Then
             ' SendKeys.Send("{TAB}")
             e.Handled = True
+        Else
 
         End If
 
+        'to change answer label as user types
+        'For Each c As Control In Me.Controls
+        '    If TypeOf c Is RichTextBox Then
+
+        '        lblInput.Text = c.Text
+        '    End If
+        'Next
+      
+
+
+
+
     End Sub
 
-    
+
 
 
     'Private Sub txt0x0_TextChanged(sender As Object, e As EventArgs) Handles txt0x0.TextChanged
@@ -54,7 +71,7 @@ Public Class frmTimeTable
 
     'End Sub
 
-    
+
 
     Private Sub txt0x0_GotFocus(sender As Object, e As EventArgs) Handles txt0x0.GotFocus
         lblInput.Text = txt0x0.Text
@@ -582,11 +599,110 @@ Public Class frmTimeTable
 
 
 
-   
 
-    
+
+
 
     'allows label for the answer to display as user enters answer
+    Private Sub txt0x0_TextChanged(sender As Object, e As EventArgs) Handles txt0x0.TextChanged
+        lblInput.Text = txt0x0.Text
+    End Sub
+    Private Sub txt0x1_TextChanged(sender As Object, e As EventArgs) Handles txt0x1.TextChanged
+        lblInput.Text = txt0x1.Text
+    End Sub
+    Private Sub txt0x2_TextChanged(sender As Object, e As EventArgs) Handles txt0x2.TextChanged
+        lblInput.Text = txt0x2.Text
+    End Sub
+    Private Sub txt0x3_TextChanged(sender As Object, e As EventArgs) Handles txt0x3.TextChanged
+        lblInput.Text = txt0x3.Text
+    End Sub
+    Private Sub txt0x4_TextChanged(sender As Object, e As EventArgs) Handles txt0x4.TextChanged
+        lblInput.Text = txt0x4.Text
+    End Sub
+    Private Sub txt0x5_TextChanged(sender As Object, e As EventArgs) Handles txt0x4.TextChanged
+        lblInput.Text = txt0x5.Text
+    End Sub
+    Private Sub txt0x6_TextChanged(sender As Object, e As EventArgs) Handles txt0x6.TextChanged
+        lblInput.Text = txt0x6.Text
+    End Sub
+    Private Sub txt0x7_TextChanged(sender As Object, e As EventArgs) Handles txt0x7.TextChanged
+        lblInput.Text = txt0x7.Text
+    End Sub
+    Private Sub txt0x8_TextChanged(sender As Object, e As EventArgs) Handles txt0x8.TextChanged
+        lblInput.Text = txt0x8.Text
+    End Sub
+    Private Sub txt0x9_TextChanged(sender As Object, e As EventArgs) Handles txt0x9.TextChanged
+        lblInput.Text = txt0x9.Text
+    End Sub
+    Private Sub txt0x10_TextChanged(sender As Object, e As EventArgs) Handles txt0x10.TextChanged
+        lblInput.Text = txt0x10.Text
+    End Sub
+    Private Sub txt1x0_TextChanged(sender As Object, e As EventArgs) Handles txt1x0.TextChanged
+        lblInput.Text = txt1x0.Text
+    End Sub
+    Private Sub txt1x1_TextChanged(sender As Object, e As EventArgs) Handles txt1x1.TextChanged
+        lblInput.Text = txt1x1.Text
+    End Sub
+    Private Sub txt1x2_TextChanged(sender As Object, e As EventArgs) Handles txt1x2.TextChanged
+        lblInput.Text = txt1x2.Text
+    End Sub
+    Private Sub txt1x3_TextChanged(sender As Object, e As EventArgs) Handles txt1x3.TextChanged
+        lblInput.Text = txt1x3.Text
+    End Sub
+    Private Sub txt1x4_TextChanged(sender As Object, e As EventArgs) Handles txt1x4.TextChanged
+        lblInput.Text = txt1x4.Text
+    End Sub
+    Private Sub txt1x5_TextChanged(sender As Object, e As EventArgs) Handles txt1x4.TextChanged
+        lblInput.Text = txt1x5.Text
+    End Sub
+    Private Sub txt1x6_TextChanged(sender As Object, e As EventArgs) Handles txt1x6.TextChanged
+        lblInput.Text = txt1x6.Text
+    End Sub
+    Private Sub txt1x7_TextChanged(sender As Object, e As EventArgs) Handles txt1x7.TextChanged
+        lblInput.Text = txt1x7.Text
+    End Sub
+    Private Sub txt1x8_TextChanged(sender As Object, e As EventArgs) Handles txt1x8.TextChanged
+        lblInput.Text = txt1x8.Text
+    End Sub
+    Private Sub txt1x9_TextChanged(sender As Object, e As EventArgs) Handles txt1x9.TextChanged
+        lblInput.Text = txt1x9.Text
+    End Sub
+    Private Sub txt1x10_TextChanged(sender As Object, e As EventArgs) Handles txt1x10.TextChanged
+        lblInput.Text = txt1x10.Text
+    End Sub
+    Private Sub txt2x0_TextChanged(sender As Object, e As EventArgs) Handles txt2x0.TextChanged
+        lblInput.Text = txt2x0.Text
+    End Sub
+    Private Sub txt2x1_TextChanged(sender As Object, e As EventArgs) Handles txt2x1.TextChanged
+        lblInput.Text = txt2x1.Text
+    End Sub
+    Private Sub txt2x2_TextChanged(sender As Object, e As EventArgs) Handles txt2x2.TextChanged
+        lblInput.Text = txt2x2.Text
+    End Sub
+    Private Sub txt2x3_TextChanged(sender As Object, e As EventArgs) Handles txt2x3.TextChanged
+        lblInput.Text = txt2x3.Text
+    End Sub
+    Private Sub txt2x4_TextChanged(sender As Object, e As EventArgs) Handles txt2x4.TextChanged
+        lblInput.Text = txt2x4.Text
+    End Sub
+    Private Sub txt2x5_TextChanged(sender As Object, e As EventArgs) Handles txt2x4.TextChanged
+        lblInput.Text = txt2x5.Text
+    End Sub
+    Private Sub txt2x6_TextChanged(sender As Object, e As EventArgs) Handles txt2x6.TextChanged
+        lblInput.Text = txt2x6.Text
+    End Sub
+    Private Sub txt2x7_TextChanged(sender As Object, e As EventArgs) Handles txt2x7.TextChanged
+        lblInput.Text = txt2x7.Text
+    End Sub
+    Private Sub txt2x8_TextChanged(sender As Object, e As EventArgs) Handles txt2x8.TextChanged
+        lblInput.Text = txt2x8.Text
+    End Sub
+    Private Sub txt2x9_TextChanged(sender As Object, e As EventArgs) Handles txt2x9.TextChanged
+        lblInput.Text = txt2x9.Text
+    End Sub
+    Private Sub txt2x10_TextChanged(sender As Object, e As EventArgs) Handles txt2x10.TextChanged
+        lblInput.Text = txt2x10.Text
+    End Sub
     Private Sub txt3x0_TextChanged(sender As Object, e As EventArgs) Handles txt3x0.TextChanged
         lblInput.Text = txt3x0.Text
     End Sub
@@ -620,6 +736,235 @@ Public Class frmTimeTable
     Private Sub txt3x10_TextChanged(sender As Object, e As EventArgs) Handles txt3x10.TextChanged
         lblInput.Text = txt3x10.Text
     End Sub
-
-
+    Private Sub txt4x0_TextChanged(sender As Object, e As EventArgs) Handles txt4x0.TextChanged
+        lblInput.Text = txt4x0.Text
+    End Sub
+    Private Sub txt4x1_TextChanged(sender As Object, e As EventArgs) Handles txt4x1.TextChanged
+        lblInput.Text = txt4x1.Text
+    End Sub
+    Private Sub txt4x2_TextChanged(sender As Object, e As EventArgs) Handles txt4x2.TextChanged
+        lblInput.Text = txt4x2.Text
+    End Sub
+    Private Sub txt4x3_TextChanged(sender As Object, e As EventArgs) Handles txt4x3.TextChanged
+        lblInput.Text = txt4x3.Text
+    End Sub
+    Private Sub txt4x4_TextChanged(sender As Object, e As EventArgs) Handles txt4x4.TextChanged
+        lblInput.Text = txt4x4.Text
+    End Sub
+    Private Sub txt4x5_TextChanged(sender As Object, e As EventArgs) Handles txt4x4.TextChanged
+        lblInput.Text = txt4x5.Text
+    End Sub
+    Private Sub txt4x6_TextChanged(sender As Object, e As EventArgs) Handles txt4x6.TextChanged
+        lblInput.Text = txt4x6.Text
+    End Sub
+    Private Sub txt4x7_TextChanged(sender As Object, e As EventArgs) Handles txt4x7.TextChanged
+        lblInput.Text = txt4x7.Text
+    End Sub
+    Private Sub txt4x8_TextChanged(sender As Object, e As EventArgs) Handles txt4x8.TextChanged
+        lblInput.Text = txt4x8.Text
+    End Sub
+    Private Sub txt4x9_TextChanged(sender As Object, e As EventArgs) Handles txt4x9.TextChanged
+        lblInput.Text = txt4x9.Text
+    End Sub
+    Private Sub txt4x10_TextChanged(sender As Object, e As EventArgs) Handles txt4x10.TextChanged
+        lblInput.Text = txt4x10.Text
+    End Sub
+    Private Sub txt5x0_TextChanged(sender As Object, e As EventArgs) Handles txt5x0.TextChanged
+        lblInput.Text = txt5x0.Text
+    End Sub
+    Private Sub txt5x1_TextChanged(sender As Object, e As EventArgs) Handles txt5x1.TextChanged
+        lblInput.Text = txt5x1.Text
+    End Sub
+    Private Sub txt5x2_TextChanged(sender As Object, e As EventArgs) Handles txt5x2.TextChanged
+        lblInput.Text = txt5x2.Text
+    End Sub
+    Private Sub txt5x3_TextChanged(sender As Object, e As EventArgs) Handles txt5x3.TextChanged
+        lblInput.Text = txt5x3.Text
+    End Sub
+    Private Sub txt5x4_TextChanged(sender As Object, e As EventArgs) Handles txt5x4.TextChanged
+        lblInput.Text = txt5x4.Text
+    End Sub
+    Private Sub txt5x5_TextChanged(sender As Object, e As EventArgs) Handles txt5x4.TextChanged
+        lblInput.Text = txt5x5.Text
+    End Sub
+    Private Sub txt5x6_TextChanged(sender As Object, e As EventArgs) Handles txt5x6.TextChanged
+        lblInput.Text = txt5x6.Text
+    End Sub
+    Private Sub txt5x7_TextChanged(sender As Object, e As EventArgs) Handles txt5x7.TextChanged
+        lblInput.Text = txt5x7.Text
+    End Sub
+    Private Sub txt5x8_TextChanged(sender As Object, e As EventArgs) Handles txt5x8.TextChanged
+        lblInput.Text = txt5x8.Text
+    End Sub
+    Private Sub txt5x9_TextChanged(sender As Object, e As EventArgs) Handles txt5x9.TextChanged
+        lblInput.Text = txt5x9.Text
+    End Sub
+    Private Sub txt5x10_TextChanged(sender As Object, e As EventArgs) Handles txt5x10.TextChanged
+        lblInput.Text = txt5x10.Text
+    End Sub
+    Private Sub txt6x0_TextChanged(sender As Object, e As EventArgs) Handles txt6x0.TextChanged
+        lblInput.Text = txt6x0.Text
+    End Sub
+    Private Sub txt6x1_TextChanged(sender As Object, e As EventArgs) Handles txt6x1.TextChanged
+        lblInput.Text = txt6x1.Text
+    End Sub
+    Private Sub txt6x2_TextChanged(sender As Object, e As EventArgs) Handles txt6x2.TextChanged
+        lblInput.Text = txt6x2.Text
+    End Sub
+    Private Sub txt6x3_TextChanged(sender As Object, e As EventArgs) Handles txt6x3.TextChanged
+        lblInput.Text = txt6x3.Text
+    End Sub
+    Private Sub txt6x4_TextChanged(sender As Object, e As EventArgs) Handles txt6x4.TextChanged
+        lblInput.Text = txt6x4.Text
+    End Sub
+    Private Sub txt6x5_TextChanged(sender As Object, e As EventArgs) Handles txt6x4.TextChanged
+        lblInput.Text = txt6x5.Text
+    End Sub
+    Private Sub txt6x6_TextChanged(sender As Object, e As EventArgs) Handles txt6x6.TextChanged
+        lblInput.Text = txt6x6.Text
+    End Sub
+    Private Sub txt6x7_TextChanged(sender As Object, e As EventArgs) Handles txt6x7.TextChanged
+        lblInput.Text = txt6x7.Text
+    End Sub
+    Private Sub txt6x8_TextChanged(sender As Object, e As EventArgs) Handles txt6x8.TextChanged
+        lblInput.Text = txt6x8.Text
+    End Sub
+    Private Sub txt6x9_TextChanged(sender As Object, e As EventArgs) Handles txt6x9.TextChanged
+        lblInput.Text = txt6x9.Text
+    End Sub
+    Private Sub txt6x10_TextChanged(sender As Object, e As EventArgs) Handles txt6x10.TextChanged
+        lblInput.Text = txt6x10.Text
+    End Sub
+    Private Sub txt7x0_TextChanged(sender As Object, e As EventArgs) Handles txt7x0.TextChanged
+        lblInput.Text = txt7x0.Text
+    End Sub
+    Private Sub txt7x1_TextChanged(sender As Object, e As EventArgs) Handles txt7x1.TextChanged
+        lblInput.Text = txt7x1.Text
+    End Sub
+    Private Sub txt7x2_TextChanged(sender As Object, e As EventArgs) Handles txt7x2.TextChanged
+        lblInput.Text = txt7x2.Text
+    End Sub
+    Private Sub txt7x3_TextChanged(sender As Object, e As EventArgs) Handles txt7x3.TextChanged
+        lblInput.Text = txt7x3.Text
+    End Sub
+    Private Sub txt7x4_TextChanged(sender As Object, e As EventArgs) Handles txt7x4.TextChanged
+        lblInput.Text = txt7x4.Text
+    End Sub
+    Private Sub txt7x5_TextChanged(sender As Object, e As EventArgs) Handles txt7x4.TextChanged
+        lblInput.Text = txt7x5.Text
+    End Sub
+    Private Sub txt7x6_TextChanged(sender As Object, e As EventArgs) Handles txt7x6.TextChanged
+        lblInput.Text = txt7x6.Text
+    End Sub
+    Private Sub txt7x7_TextChanged(sender As Object, e As EventArgs) Handles txt7x7.TextChanged
+        lblInput.Text = txt7x7.Text
+    End Sub
+    Private Sub txt7x8_TextChanged(sender As Object, e As EventArgs) Handles txt7x8.TextChanged
+        lblInput.Text = txt7x8.Text
+    End Sub
+    Private Sub txt7x9_TextChanged(sender As Object, e As EventArgs) Handles txt7x9.TextChanged
+        lblInput.Text = txt7x9.Text
+    End Sub
+    Private Sub txt7x10_TextChanged(sender As Object, e As EventArgs) Handles txt7x10.TextChanged
+        lblInput.Text = txt7x10.Text
+    End Sub
+    Private Sub txt8x0_TextChanged(sender As Object, e As EventArgs) Handles txt8x0.TextChanged
+        lblInput.Text = txt8x0.Text
+    End Sub
+    Private Sub txt8x1_TextChanged(sender As Object, e As EventArgs) Handles txt8x1.TextChanged
+        lblInput.Text = txt8x1.Text
+    End Sub
+    Private Sub txt8x2_TextChanged(sender As Object, e As EventArgs) Handles txt8x2.TextChanged
+        lblInput.Text = txt8x2.Text
+    End Sub
+    Private Sub txt8x3_TextChanged(sender As Object, e As EventArgs) Handles txt8x3.TextChanged
+        lblInput.Text = txt8x3.Text
+    End Sub
+    Private Sub txt8x4_TextChanged(sender As Object, e As EventArgs) Handles txt8x4.TextChanged
+        lblInput.Text = txt8x4.Text
+    End Sub
+    Private Sub txt8x5_TextChanged(sender As Object, e As EventArgs) Handles txt8x4.TextChanged
+        lblInput.Text = txt8x5.Text
+    End Sub
+    Private Sub txt8x6_TextChanged(sender As Object, e As EventArgs) Handles txt8x6.TextChanged
+        lblInput.Text = txt8x6.Text
+    End Sub
+    Private Sub txt8x7_TextChanged(sender As Object, e As EventArgs) Handles txt8x7.TextChanged
+        lblInput.Text = txt8x7.Text
+    End Sub
+    Private Sub txt8x8_TextChanged(sender As Object, e As EventArgs) Handles txt8x8.TextChanged
+        lblInput.Text = txt8x8.Text
+    End Sub
+    Private Sub txt8x9_TextChanged(sender As Object, e As EventArgs) Handles txt8x9.TextChanged
+        lblInput.Text = txt8x9.Text
+    End Sub
+    Private Sub txt8x10_TextChanged(sender As Object, e As EventArgs) Handles txt8x10.TextChanged
+        lblInput.Text = txt8x10.Text
+    End Sub
+    Private Sub txt9x0_TextChanged(sender As Object, e As EventArgs) Handles txt9x0.TextChanged
+        lblInput.Text = txt9x0.Text
+    End Sub
+    Private Sub txt9x1_TextChanged(sender As Object, e As EventArgs) Handles txt9x1.TextChanged
+        lblInput.Text = txt9x1.Text
+    End Sub
+    Private Sub txt9x2_TextChanged(sender As Object, e As EventArgs) Handles txt9x2.TextChanged
+        lblInput.Text = txt9x2.Text
+    End Sub
+    Private Sub txt9x3_TextChanged(sender As Object, e As EventArgs) Handles txt9x3.TextChanged
+        lblInput.Text = txt9x3.Text
+    End Sub
+    Private Sub txt9x4_TextChanged(sender As Object, e As EventArgs) Handles txt9x4.TextChanged
+        lblInput.Text = txt9x4.Text
+    End Sub
+    Private Sub txt9x5_TextChanged(sender As Object, e As EventArgs) Handles txt9x4.TextChanged
+        lblInput.Text = txt9x5.Text
+    End Sub
+    Private Sub txt9x6_TextChanged(sender As Object, e As EventArgs) Handles txt9x6.TextChanged
+        lblInput.Text = txt9x6.Text
+    End Sub
+    Private Sub txt9x7_TextChanged(sender As Object, e As EventArgs) Handles txt9x7.TextChanged
+        lblInput.Text = txt9x7.Text
+    End Sub
+    Private Sub txt9x8_TextChanged(sender As Object, e As EventArgs) Handles txt9x8.TextChanged
+        lblInput.Text = txt9x8.Text
+    End Sub
+    Private Sub txt9x9_TextChanged(sender As Object, e As EventArgs) Handles txt9x9.TextChanged
+        lblInput.Text = txt9x9.Text
+    End Sub
+    Private Sub txt9x10_TextChanged(sender As Object, e As EventArgs) Handles txt9x10.TextChanged
+        lblInput.Text = txt9x10.Text
+    End Sub
+    Private Sub txt10x0_TextChanged(sender As Object, e As EventArgs) Handles txt10x0.TextChanged
+        lblInput.Text = txt10x0.Text
+    End Sub
+    Private Sub txt10x1_TextChanged(sender As Object, e As EventArgs) Handles txt10x1.TextChanged
+        lblInput.Text = txt10x1.Text
+    End Sub
+    Private Sub txt10x2_TextChanged(sender As Object, e As EventArgs) Handles txt10x2.TextChanged
+        lblInput.Text = txt10x2.Text
+    End Sub
+    Private Sub txt10x3_TextChanged(sender As Object, e As EventArgs) Handles txt10x3.TextChanged
+        lblInput.Text = txt10x3.Text
+    End Sub
+    Private Sub txt10x4_TextChanged(sender As Object, e As EventArgs) Handles txt10x4.TextChanged
+        lblInput.Text = txt10x4.Text
+    End Sub
+    Private Sub txt10x5_TextChanged(sender As Object, e As EventArgs) Handles txt10x4.TextChanged
+        lblInput.Text = txt10x5.Text
+    End Sub
+    Private Sub txt10x6_TextChanged(sender As Object, e As EventArgs) Handles txt10x6.TextChanged
+        lblInput.Text = txt10x6.Text
+    End Sub
+    Private Sub txt10x7_TextChanged(sender As Object, e As EventArgs) Handles txt10x7.TextChanged
+        lblInput.Text = txt10x7.Text
+    End Sub
+    Private Sub txt10x8_TextChanged(sender As Object, e As EventArgs) Handles txt10x8.TextChanged
+        lblInput.Text = txt10x8.Text
+    End Sub
+    Private Sub txt10x9_TextChanged(sender As Object, e As EventArgs) Handles txt10x9.TextChanged
+        lblInput.Text = txt10x9.Text
+    End Sub
+    Private Sub txt10x10_TextChanged(sender As Object, e As EventArgs) Handles txt10x10.TextChanged
+        lblInput.Text = txt10x10.Text
+    End Sub
 End Class
