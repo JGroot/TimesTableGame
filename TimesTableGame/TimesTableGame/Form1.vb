@@ -1891,6 +1891,10 @@ Public Class frmTimeTable
             If TypeOf c Is RichTextBox Then
 
                 DirectCast(c, RichTextBox).Text = ""
+                c.Enabled = True
+                intTotalRight = 0
+                lblTotalRight.Text = 0
+                c.BackColor = Color.White
 
             End If
         Next
