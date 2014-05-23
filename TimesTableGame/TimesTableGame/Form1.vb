@@ -547,6 +547,8 @@ Public Class frmTimeTable
         lblEquation.Text = "10 X 10 ="
         txt10x10.SelectionAlignment = HorizontalAlignment.Center
     End Sub
+
+    '***************************************************************************************************************************
     'takes input and calls the CheckAnswer function
 
     Private Sub txt0x0_KeyDown(sender As Object, e As System.Windows.Forms.KeyEventArgs) Handles txt0x0.KeyDown
@@ -643,6 +645,14 @@ Public Class frmTimeTable
         If e.KeyCode = Keys.Enter Then
             strInput = txt1x0.Text
             CheckAnswer(strInput, strAnswer, txt1x0)
+        End If
+    End Sub
+    Private Sub txt1x1_KeyDown(sender As Object, e As System.Windows.Forms.KeyEventArgs) Handles txt1x1.KeyDown
+        lblInput.Text = txt1x1.Text
+        strAnswer = "1"
+        If e.KeyCode = Keys.Enter Then
+            strInput = txt1x1.Text
+            CheckAnswer(strInput, strAnswer, txt1x1)
         End If
     End Sub
     Private Sub txt1x2_KeyDown(sender As Object, e As System.Windows.Forms.KeyEventArgs) Handles txt1x2.KeyDown
