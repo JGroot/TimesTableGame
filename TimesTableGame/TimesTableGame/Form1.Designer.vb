@@ -177,6 +177,7 @@ Partial Class frmTimeTable
         Me.txt10x0.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt10x0.Location = New System.Drawing.Point(167, 526)
         Me.txt10x0.MaxLength = 2
+        Me.txt10x0.Multiline = False
         Me.txt10x0.Name = "txt10x0"
         Me.txt10x0.Size = New System.Drawing.Size(40, 40)
         Me.txt10x0.TabIndex = 110
@@ -197,6 +198,7 @@ Partial Class frmTimeTable
         Me.txt10x1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt10x1.Location = New System.Drawing.Point(213, 526)
         Me.txt10x1.MaxLength = 2
+        Me.txt10x1.Multiline = False
         Me.txt10x1.Name = "txt10x1"
         Me.txt10x1.Size = New System.Drawing.Size(40, 40)
         Me.txt10x1.TabIndex = 111
@@ -207,6 +209,7 @@ Partial Class frmTimeTable
         Me.txt10x3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt10x3.Location = New System.Drawing.Point(305, 526)
         Me.txt10x3.MaxLength = 2
+        Me.txt10x3.Multiline = False
         Me.txt10x3.Name = "txt10x3"
         Me.txt10x3.Size = New System.Drawing.Size(40, 40)
         Me.txt10x3.TabIndex = 113
@@ -217,6 +220,7 @@ Partial Class frmTimeTable
         Me.txt10x2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt10x2.Location = New System.Drawing.Point(259, 526)
         Me.txt10x2.MaxLength = 2
+        Me.txt10x2.Multiline = False
         Me.txt10x2.Name = "txt10x2"
         Me.txt10x2.Size = New System.Drawing.Size(40, 40)
         Me.txt10x2.TabIndex = 112
@@ -227,6 +231,7 @@ Partial Class frmTimeTable
         Me.txt10x4.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt10x4.Location = New System.Drawing.Point(350, 527)
         Me.txt10x4.MaxLength = 2
+        Me.txt10x4.Multiline = False
         Me.txt10x4.Name = "txt10x4"
         Me.txt10x4.Size = New System.Drawing.Size(40, 40)
         Me.txt10x4.TabIndex = 114
@@ -237,6 +242,7 @@ Partial Class frmTimeTable
         Me.txt10x6.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt10x6.Location = New System.Drawing.Point(443, 526)
         Me.txt10x6.MaxLength = 2
+        Me.txt10x6.Multiline = False
         Me.txt10x6.Name = "txt10x6"
         Me.txt10x6.Size = New System.Drawing.Size(40, 40)
         Me.txt10x6.TabIndex = 116
@@ -247,6 +253,7 @@ Partial Class frmTimeTable
         Me.txt10x5.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt10x5.Location = New System.Drawing.Point(397, 526)
         Me.txt10x5.MaxLength = 2
+        Me.txt10x5.Multiline = False
         Me.txt10x5.Name = "txt10x5"
         Me.txt10x5.Size = New System.Drawing.Size(40, 40)
         Me.txt10x5.TabIndex = 115
@@ -257,6 +264,7 @@ Partial Class frmTimeTable
         Me.txt10x7.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt10x7.Location = New System.Drawing.Point(489, 526)
         Me.txt10x7.MaxLength = 2
+        Me.txt10x7.Multiline = False
         Me.txt10x7.Name = "txt10x7"
         Me.txt10x7.Size = New System.Drawing.Size(40, 40)
         Me.txt10x7.TabIndex = 117
@@ -267,6 +275,7 @@ Partial Class frmTimeTable
         Me.txt10x8.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt10x8.Location = New System.Drawing.Point(535, 526)
         Me.txt10x8.MaxLength = 2
+        Me.txt10x8.Multiline = False
         Me.txt10x8.Name = "txt10x8"
         Me.txt10x8.Size = New System.Drawing.Size(40, 40)
         Me.txt10x8.TabIndex = 118
@@ -276,7 +285,8 @@ Partial Class frmTimeTable
         '
         Me.txt10x10.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt10x10.Location = New System.Drawing.Point(627, 526)
-        Me.txt10x10.MaxLength = 2
+        Me.txt10x10.MaxLength = 3
+        Me.txt10x10.Multiline = False
         Me.txt10x10.Name = "txt10x10"
         Me.txt10x10.Size = New System.Drawing.Size(40, 40)
         Me.txt10x10.TabIndex = 120
@@ -287,6 +297,7 @@ Partial Class frmTimeTable
         Me.txt10x9.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt10x9.Location = New System.Drawing.Point(581, 526)
         Me.txt10x9.MaxLength = 2
+        Me.txt10x9.Multiline = False
         Me.txt10x9.Name = "txt10x9"
         Me.txt10x9.Size = New System.Drawing.Size(40, 40)
         Me.txt10x9.TabIndex = 119
@@ -549,6 +560,7 @@ Partial Class frmTimeTable
         Me.txt9x0.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt9x0.Location = New System.Drawing.Point(167, 480)
         Me.txt9x0.MaxLength = 2
+        Me.txt9x0.Multiline = False
         Me.txt9x0.Name = "txt9x0"
         Me.txt9x0.Size = New System.Drawing.Size(40, 40)
         Me.txt9x0.TabIndex = 99
@@ -559,6 +571,7 @@ Partial Class frmTimeTable
         Me.txt8x0.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt8x0.Location = New System.Drawing.Point(167, 434)
         Me.txt8x0.MaxLength = 2
+        Me.txt8x0.Multiline = False
         Me.txt8x0.Name = "txt8x0"
         Me.txt8x0.Size = New System.Drawing.Size(40, 40)
         Me.txt8x0.TabIndex = 88
@@ -569,6 +582,7 @@ Partial Class frmTimeTable
         Me.txt7x0.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt7x0.Location = New System.Drawing.Point(167, 388)
         Me.txt7x0.MaxLength = 2
+        Me.txt7x0.Multiline = False
         Me.txt7x0.Name = "txt7x0"
         Me.txt7x0.Size = New System.Drawing.Size(40, 40)
         Me.txt7x0.TabIndex = 77
@@ -579,6 +593,7 @@ Partial Class frmTimeTable
         Me.txt6x0.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt6x0.Location = New System.Drawing.Point(167, 342)
         Me.txt6x0.MaxLength = 2
+        Me.txt6x0.Multiline = False
         Me.txt6x0.Name = "txt6x0"
         Me.txt6x0.Size = New System.Drawing.Size(40, 40)
         Me.txt6x0.TabIndex = 66
@@ -589,6 +604,7 @@ Partial Class frmTimeTable
         Me.txt5x0.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt5x0.Location = New System.Drawing.Point(167, 296)
         Me.txt5x0.MaxLength = 2
+        Me.txt5x0.Multiline = False
         Me.txt5x0.Name = "txt5x0"
         Me.txt5x0.Size = New System.Drawing.Size(40, 40)
         Me.txt5x0.TabIndex = 55
@@ -844,6 +860,7 @@ Partial Class frmTimeTable
         Me.txt6x2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt6x2.Location = New System.Drawing.Point(259, 342)
         Me.txt6x2.MaxLength = 2
+        Me.txt6x2.Multiline = False
         Me.txt6x2.Name = "txt6x2"
         Me.txt6x2.Size = New System.Drawing.Size(40, 40)
         Me.txt6x2.TabIndex = 68
@@ -854,6 +871,7 @@ Partial Class frmTimeTable
         Me.txt7x1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt7x1.Location = New System.Drawing.Point(213, 388)
         Me.txt7x1.MaxLength = 2
+        Me.txt7x1.Multiline = False
         Me.txt7x1.Name = "txt7x1"
         Me.txt7x1.Size = New System.Drawing.Size(40, 40)
         Me.txt7x1.TabIndex = 78
@@ -864,6 +882,7 @@ Partial Class frmTimeTable
         Me.txt6x1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt6x1.Location = New System.Drawing.Point(213, 342)
         Me.txt6x1.MaxLength = 2
+        Me.txt6x1.Multiline = False
         Me.txt6x1.Name = "txt6x1"
         Me.txt6x1.Size = New System.Drawing.Size(40, 40)
         Me.txt6x1.TabIndex = 67
@@ -874,6 +893,7 @@ Partial Class frmTimeTable
         Me.txt5x2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt5x2.Location = New System.Drawing.Point(259, 296)
         Me.txt5x2.MaxLength = 2
+        Me.txt5x2.Multiline = False
         Me.txt5x2.Name = "txt5x2"
         Me.txt5x2.Size = New System.Drawing.Size(40, 40)
         Me.txt5x2.TabIndex = 57
@@ -884,6 +904,7 @@ Partial Class frmTimeTable
         Me.txt5x1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt5x1.Location = New System.Drawing.Point(213, 296)
         Me.txt5x1.MaxLength = 2
+        Me.txt5x1.Multiline = False
         Me.txt5x1.Name = "txt5x1"
         Me.txt5x1.Size = New System.Drawing.Size(40, 40)
         Me.txt5x1.TabIndex = 56
@@ -894,6 +915,7 @@ Partial Class frmTimeTable
         Me.txt4x3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt4x3.Location = New System.Drawing.Point(305, 250)
         Me.txt4x3.MaxLength = 2
+        Me.txt4x3.Multiline = False
         Me.txt4x3.Name = "txt4x3"
         Me.txt4x3.Size = New System.Drawing.Size(40, 40)
         Me.txt4x3.TabIndex = 47
@@ -904,6 +926,7 @@ Partial Class frmTimeTable
         Me.txt4x2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt4x2.Location = New System.Drawing.Point(259, 250)
         Me.txt4x2.MaxLength = 2
+        Me.txt4x2.Multiline = False
         Me.txt4x2.Name = "txt4x2"
         Me.txt4x2.Size = New System.Drawing.Size(40, 40)
         Me.txt4x2.TabIndex = 46
@@ -914,6 +937,7 @@ Partial Class frmTimeTable
         Me.txt4x1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt4x1.Location = New System.Drawing.Point(213, 250)
         Me.txt4x1.MaxLength = 2
+        Me.txt4x1.Multiline = False
         Me.txt4x1.Name = "txt4x1"
         Me.txt4x1.Size = New System.Drawing.Size(40, 40)
         Me.txt4x1.TabIndex = 45
@@ -1122,6 +1146,7 @@ Partial Class frmTimeTable
         Me.txt5x3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt5x3.Location = New System.Drawing.Point(305, 296)
         Me.txt5x3.MaxLength = 2
+        Me.txt5x3.Multiline = False
         Me.txt5x3.Name = "txt5x3"
         Me.txt5x3.Size = New System.Drawing.Size(40, 40)
         Me.txt5x3.TabIndex = 58
@@ -1132,6 +1157,7 @@ Partial Class frmTimeTable
         Me.txt9x2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt9x2.Location = New System.Drawing.Point(259, 480)
         Me.txt9x2.MaxLength = 2
+        Me.txt9x2.Multiline = False
         Me.txt9x2.Name = "txt9x2"
         Me.txt9x2.Size = New System.Drawing.Size(40, 40)
         Me.txt9x2.TabIndex = 101
@@ -1142,6 +1168,7 @@ Partial Class frmTimeTable
         Me.txt8x2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt8x2.Location = New System.Drawing.Point(259, 434)
         Me.txt8x2.MaxLength = 2
+        Me.txt8x2.Multiline = False
         Me.txt8x2.Name = "txt8x2"
         Me.txt8x2.Size = New System.Drawing.Size(40, 40)
         Me.txt8x2.TabIndex = 90
@@ -1152,6 +1179,7 @@ Partial Class frmTimeTable
         Me.txt7x2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt7x2.Location = New System.Drawing.Point(259, 388)
         Me.txt7x2.MaxLength = 2
+        Me.txt7x2.Multiline = False
         Me.txt7x2.Name = "txt7x2"
         Me.txt7x2.Size = New System.Drawing.Size(40, 40)
         Me.txt7x2.TabIndex = 79
@@ -1162,6 +1190,7 @@ Partial Class frmTimeTable
         Me.txt9x1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt9x1.Location = New System.Drawing.Point(213, 480)
         Me.txt9x1.MaxLength = 2
+        Me.txt9x1.Multiline = False
         Me.txt9x1.Name = "txt9x1"
         Me.txt9x1.Size = New System.Drawing.Size(40, 40)
         Me.txt9x1.TabIndex = 100
@@ -1172,6 +1201,7 @@ Partial Class frmTimeTable
         Me.txt8x1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt8x1.Location = New System.Drawing.Point(213, 434)
         Me.txt8x1.MaxLength = 2
+        Me.txt8x1.Multiline = False
         Me.txt8x1.Name = "txt8x1"
         Me.txt8x1.Size = New System.Drawing.Size(40, 40)
         Me.txt8x1.TabIndex = 89
@@ -1182,6 +1212,7 @@ Partial Class frmTimeTable
         Me.txt4x4.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt4x4.Location = New System.Drawing.Point(351, 250)
         Me.txt4x4.MaxLength = 2
+        Me.txt4x4.Multiline = False
         Me.txt4x4.Name = "txt4x4"
         Me.txt4x4.Size = New System.Drawing.Size(40, 40)
         Me.txt4x4.TabIndex = 48
@@ -1192,6 +1223,7 @@ Partial Class frmTimeTable
         Me.txt9x3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt9x3.Location = New System.Drawing.Point(305, 480)
         Me.txt9x3.MaxLength = 2
+        Me.txt9x3.Multiline = False
         Me.txt9x3.Name = "txt9x3"
         Me.txt9x3.Size = New System.Drawing.Size(40, 40)
         Me.txt9x3.TabIndex = 102
@@ -1202,6 +1234,7 @@ Partial Class frmTimeTable
         Me.txt8x3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt8x3.Location = New System.Drawing.Point(305, 434)
         Me.txt8x3.MaxLength = 2
+        Me.txt8x3.Multiline = False
         Me.txt8x3.Name = "txt8x3"
         Me.txt8x3.Size = New System.Drawing.Size(40, 40)
         Me.txt8x3.TabIndex = 91
@@ -1212,6 +1245,7 @@ Partial Class frmTimeTable
         Me.txt7x3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt7x3.Location = New System.Drawing.Point(305, 388)
         Me.txt7x3.MaxLength = 2
+        Me.txt7x3.Multiline = False
         Me.txt7x3.Name = "txt7x3"
         Me.txt7x3.Size = New System.Drawing.Size(40, 40)
         Me.txt7x3.TabIndex = 80
@@ -1222,6 +1256,7 @@ Partial Class frmTimeTable
         Me.txt6x3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt6x3.Location = New System.Drawing.Point(305, 342)
         Me.txt6x3.MaxLength = 2
+        Me.txt6x3.Multiline = False
         Me.txt6x3.Name = "txt6x3"
         Me.txt6x3.Size = New System.Drawing.Size(40, 40)
         Me.txt6x3.TabIndex = 69
@@ -1232,6 +1267,7 @@ Partial Class frmTimeTable
         Me.txt5x4.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt5x4.Location = New System.Drawing.Point(351, 296)
         Me.txt5x4.MaxLength = 2
+        Me.txt5x4.Multiline = False
         Me.txt5x4.Name = "txt5x4"
         Me.txt5x4.Size = New System.Drawing.Size(40, 40)
         Me.txt5x4.TabIndex = 59
@@ -1242,6 +1278,7 @@ Partial Class frmTimeTable
         Me.txt4x9.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt4x9.Location = New System.Drawing.Point(581, 250)
         Me.txt4x9.MaxLength = 2
+        Me.txt4x9.Multiline = False
         Me.txt4x9.Name = "txt4x9"
         Me.txt4x9.Size = New System.Drawing.Size(40, 40)
         Me.txt4x9.TabIndex = 53
@@ -1252,6 +1289,7 @@ Partial Class frmTimeTable
         Me.txt4x10.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt4x10.Location = New System.Drawing.Point(627, 250)
         Me.txt4x10.MaxLength = 2
+        Me.txt4x10.Multiline = False
         Me.txt4x10.Name = "txt4x10"
         Me.txt4x10.Size = New System.Drawing.Size(40, 40)
         Me.txt4x10.TabIndex = 54
@@ -1273,6 +1311,7 @@ Partial Class frmTimeTable
         Me.txt6x4.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt6x4.Location = New System.Drawing.Point(351, 343)
         Me.txt6x4.MaxLength = 2
+        Me.txt6x4.Multiline = False
         Me.txt6x4.Name = "txt6x4"
         Me.txt6x4.Size = New System.Drawing.Size(40, 40)
         Me.txt6x4.TabIndex = 70
@@ -1283,6 +1322,7 @@ Partial Class frmTimeTable
         Me.txt7x4.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt7x4.Location = New System.Drawing.Point(351, 389)
         Me.txt7x4.MaxLength = 2
+        Me.txt7x4.Multiline = False
         Me.txt7x4.Name = "txt7x4"
         Me.txt7x4.Size = New System.Drawing.Size(40, 40)
         Me.txt7x4.TabIndex = 81
@@ -1293,6 +1333,7 @@ Partial Class frmTimeTable
         Me.txt8x4.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt8x4.Location = New System.Drawing.Point(350, 435)
         Me.txt8x4.MaxLength = 2
+        Me.txt8x4.Multiline = False
         Me.txt8x4.Name = "txt8x4"
         Me.txt8x4.Size = New System.Drawing.Size(40, 40)
         Me.txt8x4.TabIndex = 92
@@ -1303,6 +1344,7 @@ Partial Class frmTimeTable
         Me.txt9x4.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt9x4.Location = New System.Drawing.Point(351, 481)
         Me.txt9x4.MaxLength = 2
+        Me.txt9x4.Multiline = False
         Me.txt9x4.Name = "txt9x4"
         Me.txt9x4.Size = New System.Drawing.Size(40, 40)
         Me.txt9x4.TabIndex = 103
@@ -1313,6 +1355,7 @@ Partial Class frmTimeTable
         Me.txt5x6.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt5x6.Location = New System.Drawing.Point(443, 296)
         Me.txt5x6.MaxLength = 2
+        Me.txt5x6.Multiline = False
         Me.txt5x6.Name = "txt5x6"
         Me.txt5x6.Size = New System.Drawing.Size(40, 40)
         Me.txt5x6.TabIndex = 61
@@ -1323,6 +1366,7 @@ Partial Class frmTimeTable
         Me.txt5x5.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt5x5.Location = New System.Drawing.Point(397, 296)
         Me.txt5x5.MaxLength = 2
+        Me.txt5x5.Multiline = False
         Me.txt5x5.Name = "txt5x5"
         Me.txt5x5.Size = New System.Drawing.Size(40, 40)
         Me.txt5x5.TabIndex = 60
@@ -1333,6 +1377,7 @@ Partial Class frmTimeTable
         Me.txt4x5.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt4x5.Location = New System.Drawing.Point(397, 250)
         Me.txt4x5.MaxLength = 2
+        Me.txt4x5.Multiline = False
         Me.txt4x5.Name = "txt4x5"
         Me.txt4x5.Size = New System.Drawing.Size(40, 40)
         Me.txt4x5.TabIndex = 49
@@ -1343,6 +1388,7 @@ Partial Class frmTimeTable
         Me.txt4x6.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt4x6.Location = New System.Drawing.Point(443, 250)
         Me.txt4x6.MaxLength = 2
+        Me.txt4x6.Multiline = False
         Me.txt4x6.Name = "txt4x6"
         Me.txt4x6.Size = New System.Drawing.Size(40, 40)
         Me.txt4x6.TabIndex = 50
@@ -1353,6 +1399,7 @@ Partial Class frmTimeTable
         Me.txt4x7.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt4x7.Location = New System.Drawing.Point(489, 250)
         Me.txt4x7.MaxLength = 2
+        Me.txt4x7.Multiline = False
         Me.txt4x7.Name = "txt4x7"
         Me.txt4x7.Size = New System.Drawing.Size(40, 40)
         Me.txt4x7.TabIndex = 51
@@ -1363,6 +1410,7 @@ Partial Class frmTimeTable
         Me.txt4x8.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt4x8.Location = New System.Drawing.Point(535, 250)
         Me.txt4x8.MaxLength = 2
+        Me.txt4x8.Multiline = False
         Me.txt4x8.Name = "txt4x8"
         Me.txt4x8.Size = New System.Drawing.Size(40, 40)
         Me.txt4x8.TabIndex = 52
@@ -1373,6 +1421,7 @@ Partial Class frmTimeTable
         Me.txt6x7.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt6x7.Location = New System.Drawing.Point(489, 342)
         Me.txt6x7.MaxLength = 2
+        Me.txt6x7.Multiline = False
         Me.txt6x7.Name = "txt6x7"
         Me.txt6x7.Size = New System.Drawing.Size(40, 40)
         Me.txt6x7.TabIndex = 73
@@ -1383,6 +1432,7 @@ Partial Class frmTimeTable
         Me.txt6x6.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt6x6.Location = New System.Drawing.Point(443, 342)
         Me.txt6x6.MaxLength = 2
+        Me.txt6x6.Multiline = False
         Me.txt6x6.Name = "txt6x6"
         Me.txt6x6.Size = New System.Drawing.Size(40, 40)
         Me.txt6x6.TabIndex = 72
@@ -1393,6 +1443,7 @@ Partial Class frmTimeTable
         Me.txt7x5.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt7x5.Location = New System.Drawing.Point(397, 388)
         Me.txt7x5.MaxLength = 2
+        Me.txt7x5.Multiline = False
         Me.txt7x5.Name = "txt7x5"
         Me.txt7x5.Size = New System.Drawing.Size(40, 40)
         Me.txt7x5.TabIndex = 82
@@ -1403,6 +1454,7 @@ Partial Class frmTimeTable
         Me.txt6x5.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt6x5.Location = New System.Drawing.Point(397, 342)
         Me.txt6x5.MaxLength = 2
+        Me.txt6x5.Multiline = False
         Me.txt6x5.Name = "txt6x5"
         Me.txt6x5.Size = New System.Drawing.Size(40, 40)
         Me.txt6x5.TabIndex = 71
@@ -1413,6 +1465,7 @@ Partial Class frmTimeTable
         Me.txt5x10.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt5x10.Location = New System.Drawing.Point(627, 296)
         Me.txt5x10.MaxLength = 2
+        Me.txt5x10.Multiline = False
         Me.txt5x10.Name = "txt5x10"
         Me.txt5x10.Size = New System.Drawing.Size(40, 40)
         Me.txt5x10.TabIndex = 65
@@ -1423,6 +1476,7 @@ Partial Class frmTimeTable
         Me.txt5x9.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt5x9.Location = New System.Drawing.Point(581, 296)
         Me.txt5x9.MaxLength = 2
+        Me.txt5x9.Multiline = False
         Me.txt5x9.Name = "txt5x9"
         Me.txt5x9.Size = New System.Drawing.Size(40, 40)
         Me.txt5x9.TabIndex = 64
@@ -1433,6 +1487,7 @@ Partial Class frmTimeTable
         Me.txt5x8.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt5x8.Location = New System.Drawing.Point(535, 296)
         Me.txt5x8.MaxLength = 2
+        Me.txt5x8.Multiline = False
         Me.txt5x8.Name = "txt5x8"
         Me.txt5x8.Size = New System.Drawing.Size(40, 40)
         Me.txt5x8.TabIndex = 63
@@ -1443,6 +1498,7 @@ Partial Class frmTimeTable
         Me.txt5x7.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt5x7.Location = New System.Drawing.Point(489, 296)
         Me.txt5x7.MaxLength = 2
+        Me.txt5x7.Multiline = False
         Me.txt5x7.Name = "txt5x7"
         Me.txt5x7.Size = New System.Drawing.Size(40, 40)
         Me.txt5x7.TabIndex = 62
@@ -1453,6 +1509,7 @@ Partial Class frmTimeTable
         Me.txt7x7.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt7x7.Location = New System.Drawing.Point(489, 388)
         Me.txt7x7.MaxLength = 2
+        Me.txt7x7.Multiline = False
         Me.txt7x7.Name = "txt7x7"
         Me.txt7x7.Size = New System.Drawing.Size(40, 40)
         Me.txt7x7.TabIndex = 84
@@ -1463,6 +1520,7 @@ Partial Class frmTimeTable
         Me.txt9x6.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt9x6.Location = New System.Drawing.Point(443, 480)
         Me.txt9x6.MaxLength = 2
+        Me.txt9x6.Multiline = False
         Me.txt9x6.Name = "txt9x6"
         Me.txt9x6.Size = New System.Drawing.Size(40, 40)
         Me.txt9x6.TabIndex = 105
@@ -1473,6 +1531,7 @@ Partial Class frmTimeTable
         Me.txt9x5.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt9x5.Location = New System.Drawing.Point(397, 481)
         Me.txt9x5.MaxLength = 2
+        Me.txt9x5.Multiline = False
         Me.txt9x5.Name = "txt9x5"
         Me.txt9x5.Size = New System.Drawing.Size(40, 40)
         Me.txt9x5.TabIndex = 104
@@ -1483,6 +1542,7 @@ Partial Class frmTimeTable
         Me.txt8x6.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt8x6.Location = New System.Drawing.Point(443, 435)
         Me.txt8x6.MaxLength = 2
+        Me.txt8x6.Multiline = False
         Me.txt8x6.Name = "txt8x6"
         Me.txt8x6.Size = New System.Drawing.Size(40, 40)
         Me.txt8x6.TabIndex = 94
@@ -1493,6 +1553,7 @@ Partial Class frmTimeTable
         Me.txt7x6.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt7x6.Location = New System.Drawing.Point(443, 388)
         Me.txt7x6.MaxLength = 2
+        Me.txt7x6.Multiline = False
         Me.txt7x6.Name = "txt7x6"
         Me.txt7x6.Size = New System.Drawing.Size(40, 40)
         Me.txt7x6.TabIndex = 83
@@ -1503,6 +1564,7 @@ Partial Class frmTimeTable
         Me.txt8x5.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt8x5.Location = New System.Drawing.Point(397, 434)
         Me.txt8x5.MaxLength = 2
+        Me.txt8x5.Multiline = False
         Me.txt8x5.Name = "txt8x5"
         Me.txt8x5.Size = New System.Drawing.Size(40, 40)
         Me.txt8x5.TabIndex = 93
@@ -1513,6 +1575,7 @@ Partial Class frmTimeTable
         Me.txt7x8.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt7x8.Location = New System.Drawing.Point(535, 389)
         Me.txt7x8.MaxLength = 2
+        Me.txt7x8.Multiline = False
         Me.txt7x8.Name = "txt7x8"
         Me.txt7x8.Size = New System.Drawing.Size(40, 40)
         Me.txt7x8.TabIndex = 85
@@ -1523,6 +1586,7 @@ Partial Class frmTimeTable
         Me.txt6x10.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt6x10.Location = New System.Drawing.Point(627, 342)
         Me.txt6x10.MaxLength = 2
+        Me.txt6x10.Multiline = False
         Me.txt6x10.Name = "txt6x10"
         Me.txt6x10.Size = New System.Drawing.Size(40, 40)
         Me.txt6x10.TabIndex = 76
@@ -1533,6 +1597,7 @@ Partial Class frmTimeTable
         Me.txt6x9.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt6x9.Location = New System.Drawing.Point(581, 342)
         Me.txt6x9.MaxLength = 2
+        Me.txt6x9.Multiline = False
         Me.txt6x9.Name = "txt6x9"
         Me.txt6x9.Size = New System.Drawing.Size(40, 40)
         Me.txt6x9.TabIndex = 75
@@ -1543,6 +1608,7 @@ Partial Class frmTimeTable
         Me.txt6x8.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt6x8.Location = New System.Drawing.Point(535, 343)
         Me.txt6x8.MaxLength = 2
+        Me.txt6x8.Multiline = False
         Me.txt6x8.Name = "txt6x8"
         Me.txt6x8.Size = New System.Drawing.Size(40, 40)
         Me.txt6x8.TabIndex = 74
@@ -1553,6 +1619,7 @@ Partial Class frmTimeTable
         Me.txt7x10.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt7x10.Location = New System.Drawing.Point(627, 389)
         Me.txt7x10.MaxLength = 2
+        Me.txt7x10.Multiline = False
         Me.txt7x10.Name = "txt7x10"
         Me.txt7x10.Size = New System.Drawing.Size(40, 40)
         Me.txt7x10.TabIndex = 87
@@ -1563,6 +1630,7 @@ Partial Class frmTimeTable
         Me.txt7x9.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt7x9.Location = New System.Drawing.Point(581, 388)
         Me.txt7x9.MaxLength = 2
+        Me.txt7x9.Multiline = False
         Me.txt7x9.Name = "txt7x9"
         Me.txt7x9.Size = New System.Drawing.Size(40, 40)
         Me.txt7x9.TabIndex = 86
@@ -1573,6 +1641,7 @@ Partial Class frmTimeTable
         Me.txt9x7.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt9x7.Location = New System.Drawing.Point(489, 481)
         Me.txt9x7.MaxLength = 2
+        Me.txt9x7.Multiline = False
         Me.txt9x7.Name = "txt9x7"
         Me.txt9x7.Size = New System.Drawing.Size(40, 40)
         Me.txt9x7.TabIndex = 106
@@ -1583,6 +1652,7 @@ Partial Class frmTimeTable
         Me.txt8x7.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt8x7.Location = New System.Drawing.Point(489, 435)
         Me.txt8x7.MaxLength = 2
+        Me.txt8x7.Multiline = False
         Me.txt8x7.Name = "txt8x7"
         Me.txt8x7.Size = New System.Drawing.Size(40, 40)
         Me.txt8x7.TabIndex = 95
@@ -1593,6 +1663,7 @@ Partial Class frmTimeTable
         Me.txt9x9.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt9x9.Location = New System.Drawing.Point(581, 480)
         Me.txt9x9.MaxLength = 2
+        Me.txt9x9.Multiline = False
         Me.txt9x9.Name = "txt9x9"
         Me.txt9x9.Size = New System.Drawing.Size(40, 40)
         Me.txt9x9.TabIndex = 108
@@ -1603,6 +1674,7 @@ Partial Class frmTimeTable
         Me.txt9x8.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt9x8.Location = New System.Drawing.Point(535, 480)
         Me.txt9x8.MaxLength = 2
+        Me.txt9x8.Multiline = False
         Me.txt9x8.Name = "txt9x8"
         Me.txt9x8.Size = New System.Drawing.Size(40, 40)
         Me.txt9x8.TabIndex = 107
@@ -1613,6 +1685,7 @@ Partial Class frmTimeTable
         Me.txt8x10.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt8x10.Location = New System.Drawing.Point(627, 435)
         Me.txt8x10.MaxLength = 2
+        Me.txt8x10.Multiline = False
         Me.txt8x10.Name = "txt8x10"
         Me.txt8x10.Size = New System.Drawing.Size(40, 40)
         Me.txt8x10.TabIndex = 98
@@ -1623,6 +1696,7 @@ Partial Class frmTimeTable
         Me.txt8x9.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt8x9.Location = New System.Drawing.Point(581, 434)
         Me.txt8x9.MaxLength = 2
+        Me.txt8x9.Multiline = False
         Me.txt8x9.Name = "txt8x9"
         Me.txt8x9.Size = New System.Drawing.Size(40, 40)
         Me.txt8x9.TabIndex = 97
@@ -1633,6 +1707,7 @@ Partial Class frmTimeTable
         Me.txt8x8.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt8x8.Location = New System.Drawing.Point(535, 434)
         Me.txt8x8.MaxLength = 2
+        Me.txt8x8.Multiline = False
         Me.txt8x8.Name = "txt8x8"
         Me.txt8x8.Size = New System.Drawing.Size(40, 40)
         Me.txt8x8.TabIndex = 96
@@ -1643,6 +1718,7 @@ Partial Class frmTimeTable
         Me.txt9x10.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt9x10.Location = New System.Drawing.Point(627, 481)
         Me.txt9x10.MaxLength = 2
+        Me.txt9x10.Multiline = False
         Me.txt9x10.Name = "txt9x10"
         Me.txt9x10.Size = New System.Drawing.Size(40, 40)
         Me.txt9x10.TabIndex = 109
@@ -1852,7 +1928,6 @@ Partial Class frmTimeTable
         Me.Controls.Add(Me.Label1)
         Me.KeyPreview = True
         Me.Name = "frmTimeTable"
-        Me.Text = "Time for Times"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

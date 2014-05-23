@@ -1159,7 +1159,7 @@ Public Class frmTimeTable
     End Sub
     Private Sub txt7x0_KeyDown(sender As Object, e As System.Windows.Forms.KeyEventArgs) Handles txt7x0.KeyDown
         lblInput.Text = txt7x0.Text
-        strAnswer = "70"
+        strAnswer = "0"
         If e.KeyCode = Keys.Enter Then
             strInput = txt7x0.Text
             CheckAnswer(strInput, strAnswer, txt7x0)
