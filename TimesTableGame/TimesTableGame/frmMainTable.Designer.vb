@@ -1765,18 +1765,23 @@ Partial Class frmTimeTable
         '
         'btnClear
         '
-        Me.btnClear.Location = New System.Drawing.Point(732, 480)
+        Me.btnClear.BackColor = System.Drawing.Color.Aqua
+        Me.btnClear.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btnClear.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnClear.Location = New System.Drawing.Point(713, 502)
         Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(75, 23)
+        Me.btnClear.Size = New System.Drawing.Size(117, 65)
         Me.btnClear.TabIndex = 147
-        Me.btnClear.Text = "Clear All"
-        Me.btnClear.UseVisualStyleBackColor = True
+        Me.btnClear.Text = "Start Over"
+        Me.btnClear.UseVisualStyleBackColor = False
         '
         'frmTimeTable
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.BackgroundImage = Global.TimesTableGame.My.Resources.Resources.TimesBackground4
         Me.ClientSize = New System.Drawing.Size(901, 623)
         Me.Controls.Add(Me.btnClear)
         Me.Controls.Add(Me.lblTotalRight)

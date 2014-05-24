@@ -41,18 +41,6 @@ Public Class frmTimeTable
 
         End If
 
-        'to change answer label as user types
-        'For Each c As Control In Me.Controls
-        '    If TypeOf c Is RichTextBox Then
-
-        '        lblInput.Text = c.Text
-        '    End If
-        'Next
-      
-
-
-
-
     End Sub
 
 
