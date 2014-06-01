@@ -1813,6 +1813,7 @@ Partial Class frmTimeTable
         '
         Me.lblTotalRight.AutoSize = True
         Me.lblTotalRight.Font = New System.Drawing.Font("Museo 500", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTotalRight.ForeColor = System.Drawing.Color.FromArgb(CType(CType(103, Byte), Integer), CType(CType(203, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.lblTotalRight.Location = New System.Drawing.Point(109, 36)
         Me.lblTotalRight.Name = "lblTotalRight"
         Me.lblTotalRight.Size = New System.Drawing.Size(55, 58)
@@ -1838,9 +1839,9 @@ Partial Class frmTimeTable
         Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel1.Controls.Add(Me.lblEquation)
         Me.Panel1.Controls.Add(Me.lblInput)
-        Me.Panel1.Location = New System.Drawing.Point(55, 266)
+        Me.Panel1.Location = New System.Drawing.Point(80, 257)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(273, 87)
+        Me.Panel1.Size = New System.Drawing.Size(273, 96)
         Me.Panel1.TabIndex = 148
         '
         'Panel2
@@ -1862,8 +1863,8 @@ Partial Class frmTimeTable
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.BackgroundImage = Global.TimesTableGame.My.Resources.Resources.TimesBackground4
         Me.ClientSize = New System.Drawing.Size(1320, 559)
-        Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnClear)
         Me.Controls.Add(Me.txt9x10)

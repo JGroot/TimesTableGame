@@ -1893,7 +1893,8 @@ Public Class frmTimeTable
                 intTotalRight = 0
                 lblTotalRight.Text = 0
                 c.BackColor = Color.White
-
+                lblEquation.Text = "Ready?"
+                lblInput.Text = ""
             End If
         Next
     End Sub
