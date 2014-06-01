@@ -172,6 +172,7 @@ Partial Class frmTimeTable
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.txt0x0 = New System.Windows.Forms.RichTextBox()
+        Me.btnShowAnswer = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
@@ -1856,6 +1857,16 @@ Partial Class frmTimeTable
         Me.txt0x0.TabIndex = 0
         Me.txt0x0.Text = ""
         '
+        'btnShowAnswer
+        '
+        Me.btnShowAnswer.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.btnShowAnswer.Location = New System.Drawing.Point(80, 377)
+        Me.btnShowAnswer.Name = "btnShowAnswer"
+        Me.btnShowAnswer.Size = New System.Drawing.Size(273, 40)
+        Me.btnShowAnswer.TabIndex = 150
+        Me.btnShowAnswer.Text = "Show Answer"
+        Me.btnShowAnswer.UseVisualStyleBackColor = False
+        '
         'frmTimeTable
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1863,6 +1874,7 @@ Partial Class frmTimeTable
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.BackgroundImage = Global.TimesTableGame.My.Resources.Resources.TimesBackground4
         Me.ClientSize = New System.Drawing.Size(1320, 559)
+        Me.Controls.Add(Me.btnShowAnswer)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Label1)
@@ -2172,5 +2184,6 @@ Partial Class frmTimeTable
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
     Friend WithEvents Panel2 As System.Windows.Forms.Panel
     Friend WithEvents txt0x0 As System.Windows.Forms.RichTextBox
+    Friend WithEvents btnShowAnswer As System.Windows.Forms.Button
 
 End Class

@@ -1915,4 +1915,7 @@ Public Class frmTimeTable
 
    
    
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnShowAnswer.Click
+
+    End Sub
 End Class
