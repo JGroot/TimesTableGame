@@ -29,19 +29,56 @@ Public Class frmTimeTable
     End Sub
 
 
-
-
-
-    ' for pressing the enter key in a textbox
     Private Sub Form1_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles Me.KeyPress
+        'Enter key inputs 
         If e.KeyChar = Microsoft.VisualBasic.ChrW(Keys.Return) Then
             ' SendKeys.Send("{TAB}")
             e.Handled = True
-        Else
-
         End If
 
+        If e.KeyChar = Microsoft.VisualBasic.ChrW(Keys.Tab) Then
+            e.Handled = False
+        End If
+
+        'Allows only numberic input
+        If (Microsoft.VisualBasic.Asc(e.KeyChar) < 48) _
+           Or (Microsoft.VisualBasic.Asc(e.KeyChar) > 57) Then
+            e.Handled = True
+        End If
+        If (Microsoft.VisualBasic.Asc(e.KeyChar) = 8) Then
+            e.Handled = False
+        End If
     End Sub
+   
+    ' To clear all textboxes
+    Private Sub btnClear_Click_1(sender As Object, e As EventArgs) Handles btnClear.Click
+        ClearForm()
+    End Sub
+
+    Private Sub ClearForm()
+        'to change answer label as user types
+
+        For Each c As Control In Me.Controls
+
+            If TypeOf c Is RichTextBox Then
+
+                DirectCast(c, RichTextBox).Text = ""
+                c.Enabled = True
+                intTotalRight = 0
+                lblTotalRight.Text = 0
+                c.BackColor = Color.White
+                lblEquation.Text = "Ready?"
+                lblInput.Text = ""
+            End If
+        Next
+    End Sub
+
+    'TODO: Show Answer button
+    'TODO:  See if I can get tab key to act as input without setting multiline to 'true'
+    'TODO: Allow different difficulty levels
+
+
+
 
 
 
@@ -1876,30 +1913,6 @@ Public Class frmTimeTable
     End Sub
 
 
-    ' To clear all textboxes
-    Private Sub btnClear_Click_1(sender As Object, e As EventArgs) Handles btnClear.Click
-        ClearForm()
-    End Sub
-
-    Private Sub ClearForm()
-        'to change answer label as user types
-
-        For Each c As Control In Me.Controls
-
-            If TypeOf c Is RichTextBox Then
-
-                DirectCast(c, RichTextBox).Text = ""
-                c.Enabled = True
-                intTotalRight = 0
-                lblTotalRight.Text = 0
-                c.BackColor = Color.White
-                lblEquation.Text = "Ready?"
-                lblInput.Text = ""
-            End If
-        Next
-    End Sub
-
-    
    
    
 End Class

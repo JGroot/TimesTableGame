@@ -47,7 +47,6 @@ Partial Class frmTimeTable
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
-        Me.txt0x0 = New System.Windows.Forms.RichTextBox()
         Me.txt0x10 = New System.Windows.Forms.RichTextBox()
         Me.txt0x9 = New System.Windows.Forms.RichTextBox()
         Me.txt0x8 = New System.Windows.Forms.RichTextBox()
@@ -172,6 +171,7 @@ Partial Class frmTimeTable
         Me.btnClear = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.txt0x0 = New System.Windows.Forms.RichTextBox()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
@@ -466,18 +466,6 @@ Partial Class frmTimeTable
         Me.Label13.Size = New System.Drawing.Size(34, 38)
         Me.Label13.TabIndex = 12
         Me.Label13.Text = "1"
-        '
-        'txt0x0
-        '
-        Me.txt0x0.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt0x0.Location = New System.Drawing.Point(442, 157)
-        Me.txt0x0.MaxLength = 2
-        Me.txt0x0.Multiline = False
-        Me.txt0x0.Name = "txt0x0"
-        Me.txt0x0.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None
-        Me.txt0x0.Size = New System.Drawing.Size(40, 40)
-        Me.txt0x0.TabIndex = 0
-        Me.txt0x0.Text = ""
         '
         'txt0x10
         '
@@ -1780,7 +1768,7 @@ Partial Class frmTimeTable
         Me.lblEquation.BackColor = System.Drawing.Color.White
         Me.lblEquation.Font = New System.Drawing.Font("Museo 500", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblEquation.ForeColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(214, Byte), Integer))
-        Me.lblEquation.Location = New System.Drawing.Point(19, 14)
+        Me.lblEquation.Location = New System.Drawing.Point(20, 13)
         Me.lblEquation.Name = "lblEquation"
         Me.lblEquation.Size = New System.Drawing.Size(184, 58)
         Me.lblEquation.TabIndex = 143
@@ -1855,6 +1843,18 @@ Partial Class frmTimeTable
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(273, 96)
         Me.Panel2.TabIndex = 149
+        '
+        'txt0x0
+        '
+        Me.txt0x0.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt0x0.Location = New System.Drawing.Point(442, 157)
+        Me.txt0x0.MaxLength = 2
+        Me.txt0x0.Multiline = False
+        Me.txt0x0.Name = "txt0x0"
+        Me.txt0x0.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None
+        Me.txt0x0.Size = New System.Drawing.Size(40, 40)
+        Me.txt0x0.TabIndex = 0
+        Me.txt0x0.Text = ""
         '
         'frmTimeTable
         '
@@ -2047,7 +2047,6 @@ Partial Class frmTimeTable
     Friend WithEvents Label11 As System.Windows.Forms.Label
     Friend WithEvents Label12 As System.Windows.Forms.Label
     Friend WithEvents Label13 As System.Windows.Forms.Label
-    Friend WithEvents txt0x0 As System.Windows.Forms.RichTextBox
     Friend WithEvents txt0x10 As System.Windows.Forms.RichTextBox
     Friend WithEvents txt0x9 As System.Windows.Forms.RichTextBox
     Friend WithEvents txt0x8 As System.Windows.Forms.RichTextBox
@@ -2172,5 +2171,6 @@ Partial Class frmTimeTable
     Friend WithEvents btnClear As System.Windows.Forms.Button
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
     Friend WithEvents Panel2 As System.Windows.Forms.Panel
+    Friend WithEvents txt0x0 As System.Windows.Forms.RichTextBox
 
 End Class
