@@ -61,6 +61,16 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        '''</summary>
+        Friend ReadOnly Property Graphicloads_100_Flat_2_Multiply() As System.Drawing.Icon
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Graphicloads_100_Flat_2_Multiply", resourceCulture)
+                Return CType(obj,System.Drawing.Icon)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
         Friend ReadOnly Property TimesBackground() As System.Drawing.Bitmap
@@ -97,6 +107,16 @@ Namespace My.Resources
             Get
                 Dim obj As Object = ResourceManager.GetObject("TimesBackground4", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        '''</summary>
+        Friend ReadOnly Property Visualpharm_Ios7v2_Time_Month_view() As System.Drawing.Icon
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Visualpharm_Ios7v2_Time_Month_view", resourceCulture)
+                Return CType(obj,System.Drawing.Icon)
             End Get
         End Property
     End Module
