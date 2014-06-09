@@ -77,8 +77,12 @@ Public Class frmTimeTable
     'TODO:  See if I can get tab key to act as input without setting multiline to 'true'
     'TODO: Allow different difficulty levels
 
-
-
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnShowAnswer.Click
+        'checks which text box cursor is in
+        'fetches answer 
+        'displays answer
+        'resets when player leaves textbox
+    End Sub
 
 
 
@@ -1911,11 +1915,5 @@ Public Class frmTimeTable
     Private Sub txt10x10_TextChanged(sender As Object, e As EventArgs) Handles txt10x10.TextChanged
         lblInput.Text = txt10x10.Text
     End Sub
-
-
-   
-   
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnShowAnswer.Click
-
-    End Sub
+    +
 End Class
