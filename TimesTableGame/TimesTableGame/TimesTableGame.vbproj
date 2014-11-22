@@ -88,6 +88,9 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Answers.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmMainTable.vb">
       <SubType>Form</SubType>
     </Compile>

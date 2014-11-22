@@ -1915,5 +1915,5 @@ Public Class frmTimeTable
     Private Sub txt10x10_TextChanged(sender As Object, e As EventArgs) Handles txt10x10.TextChanged
         lblInput.Text = txt10x10.Text
     End Sub
-    +
+
 End Class
